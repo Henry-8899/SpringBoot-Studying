@@ -19,4 +19,10 @@ public class PingController {
         map.addAttribute("host", "http://www.baidu.com");
         return "index"; //返回的是index.html
     }
+
+    @RequestMapping("/aaa")
+    public String aaa(ModelMap map) {
+        map.addAttribute("host", "http://www.jd.com");
+        return "aaa"; //返回的是aaa.html
+    }
 }
