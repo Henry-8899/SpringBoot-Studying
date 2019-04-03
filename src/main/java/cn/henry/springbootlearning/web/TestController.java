@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
 
     @RequestMapping("/testlog")
-    public String testLog(String param){
-        return param;
+    public String testLog(String param) {
+        return "result = " + param;
     }
 }

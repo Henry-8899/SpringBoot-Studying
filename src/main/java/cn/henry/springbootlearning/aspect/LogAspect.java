@@ -3,6 +3,7 @@ package cn.henry.springbootlearning.aspect;
 import cn.henry.springbootlearning.utils.HttpRequestHelper;
 import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.JoinPoint;
+import org.aspectj.lang.annotation.AfterReturning;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
 import org.aspectj.lang.annotation.Pointcut;
@@ -23,7 +24,7 @@ import javax.servlet.http.HttpServletRequest;
 public class LogAspect {
 
     @Pointcut(value = "@annotation(org.springframework.web.bind.annotation.RequestMapping)")
-    public void logAspect(){
+    public void logAspect() {
 
     }
 
@@ -37,4 +38,10 @@ public class LogAspect {
         log.info("URL : {} ;HTTP_METHOD : {} ;IP : {} ;ARGS : {}",
                 request.getRequestURL().toString(), request.getMethod(), HttpRequestHelper.getIpAddr(request), request.getQueryString());
     }
+
+    @AfterReturning(returning = "ret", pointcut = "logAspect()")
+    public void doAfterReturning(Object ret) {
+        log.info("response : " + ret);
+    }
+
 }
