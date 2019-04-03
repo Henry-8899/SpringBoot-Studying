@@ -14,7 +14,7 @@ import org.springframework.web.context.request.ServletRequestAttributes;
 import javax.servlet.http.HttpServletRequest;
 
 /**
- * @Description:记录日志
+ * @Description:记录日志  （参考：https://blog.csdn.net/zhengchao1991/article/details/53391244）
  * @Author:hang
  * @Data:2019-04-03 11:02
  **/

@@ -2490,3 +2490,747 @@ org.xml.sax.SAXParseException: 元素类型 "meta" 必须由匹配的结束标�
 2019-04-03 15:04:52.506 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 17 ms
 2019-04-03 15:04:52.582 [http-nio-8080-exec-1] INFO  cn.henry.springbootlearning.aspect.LogAspect - URL : http://localhost:8080/testlog ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : param=qwe
 2019-04-03 15:04:52.585 [http-nio-8080-exec-1] INFO  cn.henry.springbootlearning.aspect.LogAspect - response : result = qwe
+2019-04-03 15:18:41.783 [Thread-55] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3eb81efb: startup date [Wed Apr 03 15:04:32 CST 2019]; root of context hierarchy
+2019-04-03 15:18:41.785 [Thread-55] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2019-04-03 15:18:41.785 [Thread-55] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2019-04-03 15:18:41.786 [Thread-55] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'auditThreadPool'
+2019-04-03 15:18:43.037 [Thread-55] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'auditDataSource'
+2019-04-03 15:18:43.039 [Thread-55] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2019-04-03 15:18:43.045 [Thread-55] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2019-04-03 16:48:44.949 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2019-04-03 16:48:49.788 [main] INFO  c.h.s.SpringbootlearningApplication - Starting SpringbootlearningApplication on XiaohangdeMacBook-Pro.local with PID 11381 (/Users/xiaohangduan/Documents/workspace/springbootlearning/target/classes started by xiaohangduan in /Users/xiaohangduan/Documents/workspace/springbootlearning)
+2019-04-03 16:48:49.789 [main] INFO  c.h.s.SpringbootlearningApplication - No active profile set, falling back to default profiles: default
+2019-04-03 16:48:49.829 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1f75a668: startup date [Wed Apr 03 16:48:49 CST 2019]; root of context hierarchy
+2019-04-03 16:48:50.338 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-03 16:48:50.498 [main] INFO  o.s.b.factory.support.DefaultListableBeanFactory - Overriding bean definition for bean 'stringRedisTemplate' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=true; factoryBeanName=redisConfig; factoryMethodName=stringRedisTemplate; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [cn/henry/springbootlearning/config/redis/RedisConfig.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration$RedisConfiguration; factoryMethodName=stringRedisTemplate; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/data/redis/RedisAutoConfiguration$RedisConfiguration.class]]
+2019-04-03 16:48:50.522 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-03 16:48:51.506 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+2019-04-03 16:48:51.517 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-04-03 16:48:51.518 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2019-04-03 16:48:51.608 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-04-03 16:48:51.608 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1779 ms
+2019-04-03 16:48:51.791 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-04-03 16:48:51.792 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-04-03 16:48:51.792 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-04-03 16:48:51.792 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-04-03 16:48:51.793 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2019-04-03 16:48:51.793 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-04-03 16:48:51.839 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-04-03 16:48:53.953 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-04-03 16:48:54.077 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'auditDataSource'
+2019-04-03 16:48:54.091 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: auditDataSource
+	...]
+2019-04-03 16:48:54.187 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+2019-04-03 16:48:54.189 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-04-03 16:48:54.191 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2019-04-03 16:48:54.241 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-04-03 16:48:54.429 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-03 16:48:54.640 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'auditDataSource'
+2019-04-03 16:48:59.849 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 
+2019-04-03 16:48:59.856 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService  'auditThreadPool'
+2019-04-03 16:49:00.196 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1f75a668: startup date [Wed Apr 03 16:48:49 CST 2019]; root of context hierarchy
+2019-04-03 16:49:00.275 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/aaa]}" onto public java.lang.String cn.henry.springbootlearning.web.PingController.aaa(org.springframework.ui.ModelMap)
+2019-04-03 16:49:00.276 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/ping]}" onto public java.lang.String cn.henry.springbootlearning.web.PingController.ping()
+2019-04-03 16:49:00.277 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/testlog]}" onto public java.lang.String cn.henry.springbootlearning.web.TestController.testLog(java.lang.String)
+2019-04-03 16:49:00.279 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-04-03 16:49:00.280 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-04-03 16:49:00.331 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-03 16:49:00.332 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-03 16:49:00.383 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-03 16:49:01.002 [main] INFO  o.s.w.servlet.view.freemarker.FreeMarkerConfigurer - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2019-04-03 16:49:01.219 [main] INFO  o.s.b.a.s.AuthenticationManagerConfiguration - 
+
+Using default security password: c24c2f86-f6cd-4806-8c8d-81f634b85fee
+
+2019-04-03 16:49:01.271 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+2019-04-03 16:49:01.359 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6c830ebd, org.springframework.security.web.context.SecurityContextPersistenceFilter@11bdab37, org.springframework.security.web.header.HeaderWriterFilter@66e1b2a, org.springframework.security.web.authentication.logout.LogoutFilter@6728370a, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7f2c995b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5a6f6cac, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3e98b933, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@15f519f7, org.springframework.security.web.session.SessionManagementFilter@1a7d0c9f, org.springframework.security.web.access.ExceptionTranslationFilter@425b5fe2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5a82bc58]
+2019-04-03 16:49:01.599 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-04-03 16:49:01.600 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'auditDataSource' has been autodetected for JMX exposure
+2019-04-03 16:49:01.606 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'auditDataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=auditDataSource,type=HikariDataSource]
+2019-04-03 16:49:01.616 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-04-03 16:49:01.625 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-04-03 16:49:01.634 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-04-03 16:49:01.658 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-04-03 16:49:01.677 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+2019-04-03 16:49:01.683 [main] INFO  c.h.s.SpringbootlearningApplication - Started SpringbootlearningApplication in 27.157 seconds (JVM running for 32.883)
+2019-04-03 16:49:07.687 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-04-03 16:49:07.688 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2019-04-03 16:49:07.711 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 23 ms
+2019-04-03 16:49:07.814 [http-nio-8080-exec-2] INFO  cn.henry.springbootlearning.aspect.LogAspect - URL : http://localhost:8080/error ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : param=qwe
+2019-04-03 16:49:07.837 [http-nio-8080-exec-2] INFO  cn.henry.springbootlearning.aspect.LogAspect - response : <401 Unauthorized,{timestamp=Wed Apr 03 16:49:07 CST 2019, status=401, error=Unauthorized, message=Full authentication is required to access this resource, path=/testlog},{}>
+2019-04-03 16:49:50.768 [http-nio-8080-exec-3] INFO  cn.henry.springbootlearning.aspect.LogAspect - URL : http://localhost:8080/error ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : null
+2019-04-03 16:49:50.768 [http-nio-8080-exec-3] INFO  cn.henry.springbootlearning.aspect.LogAspect - response : <401 Unauthorized,{timestamp=Wed Apr 03 16:49:50 CST 2019, status=401, error=Unauthorized, message=Full authentication is required to access this resource, path=/ping},{}>
+2019-04-03 16:50:28.041 [Thread-57] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1f75a668: startup date [Wed Apr 03 16:48:49 CST 2019]; root of context hierarchy
+2019-04-03 16:50:28.045 [Thread-57] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2019-04-03 16:50:28.045 [Thread-57] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2019-04-03 16:50:28.046 [Thread-57] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'auditThreadPool'
+2019-04-03 16:50:29.281 [Thread-57] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'auditDataSource'
+2019-04-03 16:50:29.283 [Thread-57] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2019-04-03 16:50:29.296 [Thread-57] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2019-04-03 16:50:58.075 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2019-04-03 16:51:02.961 [main] INFO  c.h.s.SpringbootlearningApplication - Starting SpringbootlearningApplication on XiaohangdeMacBook-Pro.local with PID 11386 (/Users/xiaohangduan/Documents/workspace/springbootlearning/target/classes started by xiaohangduan in /Users/xiaohangduan/Documents/workspace/springbootlearning)
+2019-04-03 16:51:02.962 [main] INFO  c.h.s.SpringbootlearningApplication - No active profile set, falling back to default profiles: default
+2019-04-03 16:51:02.999 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1f75a668: startup date [Wed Apr 03 16:51:02 CST 2019]; root of context hierarchy
+2019-04-03 16:51:03.394 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-03 16:51:03.529 [main] INFO  o.s.b.factory.support.DefaultListableBeanFactory - Overriding bean definition for bean 'stringRedisTemplate' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=true; factoryBeanName=redisConfig; factoryMethodName=stringRedisTemplate; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [cn/henry/springbootlearning/config/redis/RedisConfig.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration$RedisConfiguration; factoryMethodName=stringRedisTemplate; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/data/redis/RedisAutoConfiguration$RedisConfiguration.class]]
+2019-04-03 16:51:03.546 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-03 16:51:04.344 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+2019-04-03 16:51:04.353 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-04-03 16:51:04.353 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2019-04-03 16:51:04.426 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-04-03 16:51:04.426 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1427 ms
+2019-04-03 16:51:04.595 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-04-03 16:51:04.595 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-04-03 16:51:04.596 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-04-03 16:51:04.596 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-04-03 16:51:04.597 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2019-04-03 16:51:04.597 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-04-03 16:51:04.635 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-04-03 16:51:06.729 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-04-03 16:51:06.830 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'auditDataSource'
+2019-04-03 16:51:06.843 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: auditDataSource
+	...]
+2019-04-03 16:51:06.898 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+2019-04-03 16:51:06.900 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-04-03 16:51:06.901 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2019-04-03 16:51:06.935 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-04-03 16:51:07.100 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-03 16:51:07.270 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'auditDataSource'
+2019-04-03 16:51:12.439 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 
+2019-04-03 16:51:12.445 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService  'auditThreadPool'
+2019-04-03 16:51:12.749 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1f75a668: startup date [Wed Apr 03 16:51:02 CST 2019]; root of context hierarchy
+2019-04-03 16:51:12.819 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/aaa]}" onto public java.lang.String cn.henry.springbootlearning.web.PingController.aaa(org.springframework.ui.ModelMap)
+2019-04-03 16:51:12.820 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/ping]}" onto public java.lang.String cn.henry.springbootlearning.web.PingController.ping()
+2019-04-03 16:51:12.821 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/testlog]}" onto public java.lang.String cn.henry.springbootlearning.web.TestController.testLog(java.lang.String)
+2019-04-03 16:51:12.823 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-04-03 16:51:12.824 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-04-03 16:51:12.871 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-03 16:51:12.871 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-03 16:51:12.919 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-03 16:51:13.449 [main] INFO  o.s.w.servlet.view.freemarker.FreeMarkerConfigurer - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2019-04-03 16:51:13.643 [main] INFO  o.s.b.a.s.AuthenticationManagerConfiguration - 
+
+Using default security password: 231cc5bc-627f-4f37-a940-c496ea7304ca
+
+2019-04-03 16:51:13.692 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+2019-04-03 16:51:13.779 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3f3c5ecd, org.springframework.security.web.context.SecurityContextPersistenceFilter@da22aa, org.springframework.security.web.header.HeaderWriterFilter@15f861ee, org.springframework.security.web.authentication.logout.LogoutFilter@3f6f9cef, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@14656be5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6c24f61d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@32a033b6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1179fc8c, org.springframework.security.web.session.SessionManagementFilter@416b1265, org.springframework.security.web.access.ExceptionTranslationFilter@13c90c06, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@101c15ad]
+2019-04-03 16:51:13.999 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-04-03 16:51:14.001 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'auditDataSource' has been autodetected for JMX exposure
+2019-04-03 16:51:14.007 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'auditDataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=auditDataSource,type=HikariDataSource]
+2019-04-03 16:51:14.017 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-04-03 16:51:14.025 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-04-03 16:51:14.034 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-04-03 16:51:14.058 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-04-03 16:51:14.072 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+2019-04-03 16:51:14.077 [main] INFO  c.h.s.SpringbootlearningApplication - Started SpringbootlearningApplication in 26.325 seconds (JVM running for 32.02)
+2019-04-03 16:51:23.974 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-04-03 16:51:23.974 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2019-04-03 16:51:23.993 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 19 ms
+2019-04-03 16:51:24.081 [http-nio-8080-exec-2] INFO  cn.henry.springbootlearning.aspect.LogAspect - URL : http://localhost:8080/error ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : null
+2019-04-03 16:51:24.082 [http-nio-8080-exec-2] INFO  cn.henry.springbootlearning.aspect.LogAspect - response : <401 Unauthorized,{timestamp=Wed Apr 03 16:51:24 CST 2019, status=401, error=Unauthorized, message=Full authentication is required to access this resource, path=/ping},{}>
+2019-04-03 16:52:17.085 [http-nio-8080-exec-3] INFO  cn.henry.springbootlearning.aspect.LogAspect - URL : http://localhost:8080/error ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : param=qwe
+2019-04-03 16:52:17.086 [http-nio-8080-exec-3] INFO  cn.henry.springbootlearning.aspect.LogAspect - response : <401 Unauthorized,{timestamp=Wed Apr 03 16:52:17 CST 2019, status=401, error=Unauthorized, message=Full authentication is required to access this resource, path=/testlog},{}>
+2019-04-03 16:52:56.915 [Thread-55] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1f75a668: startup date [Wed Apr 03 16:51:02 CST 2019]; root of context hierarchy
+2019-04-03 16:52:56.919 [Thread-55] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2019-04-03 16:52:56.920 [Thread-55] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2019-04-03 16:52:56.921 [Thread-55] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'auditThreadPool'
+2019-04-03 16:52:58.159 [Thread-55] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'auditDataSource'
+2019-04-03 16:52:58.161 [Thread-55] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2019-04-03 16:52:58.171 [Thread-55] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2019-04-03 16:53:26.761 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2019-04-03 16:53:31.647 [main] INFO  c.h.s.SpringbootlearningApplication - Starting SpringbootlearningApplication on XiaohangdeMacBook-Pro.local with PID 11390 (/Users/xiaohangduan/Documents/workspace/springbootlearning/target/classes started by xiaohangduan in /Users/xiaohangduan/Documents/workspace/springbootlearning)
+2019-04-03 16:53:31.649 [main] INFO  c.h.s.SpringbootlearningApplication - No active profile set, falling back to default profiles: default
+2019-04-03 16:53:31.684 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1f75a668: startup date [Wed Apr 03 16:53:31 CST 2019]; root of context hierarchy
+2019-04-03 16:53:32.079 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-03 16:53:32.215 [main] INFO  o.s.b.factory.support.DefaultListableBeanFactory - Overriding bean definition for bean 'stringRedisTemplate' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=true; factoryBeanName=redisConfig; factoryMethodName=stringRedisTemplate; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [cn/henry/springbootlearning/config/redis/RedisConfig.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration$RedisConfiguration; factoryMethodName=stringRedisTemplate; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/data/redis/RedisAutoConfiguration$RedisConfiguration.class]]
+2019-04-03 16:53:32.232 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-03 16:53:33.025 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+2019-04-03 16:53:33.033 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-04-03 16:53:33.034 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2019-04-03 16:53:33.114 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-04-03 16:53:33.114 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1430 ms
+2019-04-03 16:53:33.290 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-04-03 16:53:33.291 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-04-03 16:53:33.291 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-04-03 16:53:33.291 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-04-03 16:53:33.292 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2019-04-03 16:53:33.292 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-04-03 16:53:33.330 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-04-03 16:53:35.391 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-04-03 16:53:35.496 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'auditDataSource'
+2019-04-03 16:53:35.507 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: auditDataSource
+	...]
+2019-04-03 16:53:35.562 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+2019-04-03 16:53:35.563 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-04-03 16:53:35.564 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2019-04-03 16:53:35.599 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-04-03 16:53:35.761 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-03 16:53:35.933 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'auditDataSource'
+2019-04-03 16:53:41.133 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 
+2019-04-03 16:53:41.140 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService  'auditThreadPool'
+2019-04-03 16:53:41.452 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1f75a668: startup date [Wed Apr 03 16:53:31 CST 2019]; root of context hierarchy
+2019-04-03 16:53:41.524 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/aaa]}" onto public java.lang.String cn.henry.springbootlearning.web.PingController.aaa(org.springframework.ui.ModelMap)
+2019-04-03 16:53:41.525 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/ping]}" onto public java.lang.String cn.henry.springbootlearning.web.PingController.ping()
+2019-04-03 16:53:41.526 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/testlog]}" onto public java.lang.String cn.henry.springbootlearning.web.TestController.testLog(java.lang.String)
+2019-04-03 16:53:41.528 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-04-03 16:53:41.528 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-04-03 16:53:41.577 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-03 16:53:41.578 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-03 16:53:41.628 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-03 16:53:42.209 [main] INFO  o.s.w.servlet.view.freemarker.FreeMarkerConfigurer - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2019-04-03 16:53:42.389 [main] INFO  o.s.b.a.s.AuthenticationManagerConfiguration - 
+
+Using default security password: c2571780-c079-470f-ad7e-1c024df74f61
+
+2019-04-03 16:53:42.434 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+2019-04-03 16:53:42.531 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@11ad095c, org.springframework.security.web.context.SecurityContextPersistenceFilter@59127611, org.springframework.security.web.header.HeaderWriterFilter@dae5e0, org.springframework.security.web.authentication.logout.LogoutFilter@55061418, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1ed9d173, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7417ef4f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@71e7830a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2c2a903f, org.springframework.security.web.session.SessionManagementFilter@5a6f6cac, org.springframework.security.web.access.ExceptionTranslationFilter@2c815fdc, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@52657d5f]
+2019-04-03 16:53:42.777 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-04-03 16:53:42.778 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'auditDataSource' has been autodetected for JMX exposure
+2019-04-03 16:53:42.785 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'auditDataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=auditDataSource,type=HikariDataSource]
+2019-04-03 16:53:42.794 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-04-03 16:53:42.802 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-04-03 16:53:42.810 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-04-03 16:53:42.835 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-04-03 16:53:42.850 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+2019-04-03 16:53:42.856 [main] INFO  c.h.s.SpringbootlearningApplication - Started SpringbootlearningApplication in 26.444 seconds (JVM running for 32.153)
+2019-04-03 16:53:46.241 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-04-03 16:53:46.241 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2019-04-03 16:53:46.259 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 18 ms
+2019-04-03 16:53:46.343 [http-nio-8080-exec-1] INFO  cn.henry.springbootlearning.aspect.LogAspect - URL : http://localhost:8080/error ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : param=qwe
+2019-04-03 16:53:46.344 [http-nio-8080-exec-1] INFO  cn.henry.springbootlearning.aspect.LogAspect - response : <401 Unauthorized,{timestamp=Wed Apr 03 16:53:46 CST 2019, status=401, error=Unauthorized, message=Full authentication is required to access this resource, path=/testlog},{}>
+2019-04-03 16:53:49.917 [http-nio-8080-exec-3] INFO  cn.henry.springbootlearning.aspect.LogAspect - URL : http://localhost:8080/error ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : null
+2019-04-03 16:53:49.917 [http-nio-8080-exec-3] INFO  cn.henry.springbootlearning.aspect.LogAspect - response : <401 Unauthorized,{timestamp=Wed Apr 03 16:53:49 CST 2019, status=401, error=Unauthorized, message=Full authentication is required to access this resource, path=/ping},{}>
+2019-04-03 16:53:55.470 [http-nio-8080-exec-4] INFO  cn.henry.springbootlearning.aspect.LogAspect - URL : http://localhost:8080/error ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : null
+2019-04-03 16:53:55.470 [http-nio-8080-exec-4] INFO  cn.henry.springbootlearning.aspect.LogAspect - response : <401 Unauthorized,{timestamp=Wed Apr 03 16:53:55 CST 2019, status=401, error=Unauthorized, message=Full authentication is required to access this resource, path=/ping},{}>
+2019-04-03 16:55:09.845 [Thread-56] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1f75a668: startup date [Wed Apr 03 16:53:31 CST 2019]; root of context hierarchy
+2019-04-03 16:55:09.848 [Thread-56] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2019-04-03 16:55:09.848 [Thread-56] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2019-04-03 16:55:09.849 [Thread-56] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'auditThreadPool'
+2019-04-03 16:55:11.124 [Thread-56] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'auditDataSource'
+2019-04-03 16:55:11.126 [Thread-56] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2019-04-03 16:55:11.137 [Thread-56] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2019-04-03 16:59:00.429 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2019-04-03 16:59:05.312 [main] INFO  c.h.s.SpringbootlearningApplication - Starting SpringbootlearningApplication on XiaohangdeMacBook-Pro.local with PID 11402 (/Users/xiaohangduan/Documents/workspace/springbootlearning/target/classes started by xiaohangduan in /Users/xiaohangduan/Documents/workspace/springbootlearning)
+2019-04-03 16:59:05.313 [main] INFO  c.h.s.SpringbootlearningApplication - No active profile set, falling back to default profiles: default
+2019-04-03 16:59:05.346 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1f75a668: startup date [Wed Apr 03 16:59:05 CST 2019]; root of context hierarchy
+2019-04-03 16:59:05.750 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-03 16:59:05.884 [main] INFO  o.s.b.factory.support.DefaultListableBeanFactory - Overriding bean definition for bean 'stringRedisTemplate' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=true; factoryBeanName=redisConfig; factoryMethodName=stringRedisTemplate; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [cn/henry/springbootlearning/config/redis/RedisConfig.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration$RedisConfiguration; factoryMethodName=stringRedisTemplate; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/data/redis/RedisAutoConfiguration$RedisConfiguration.class]]
+2019-04-03 16:59:05.902 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-03 16:59:06.761 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+2019-04-03 16:59:06.770 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-04-03 16:59:06.771 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2019-04-03 16:59:06.853 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-04-03 16:59:06.853 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1507 ms
+2019-04-03 16:59:07.038 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-04-03 16:59:07.039 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-04-03 16:59:07.039 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-04-03 16:59:07.039 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-04-03 16:59:07.040 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2019-04-03 16:59:07.040 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-04-03 16:59:07.077 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-04-03 16:59:09.197 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-04-03 16:59:09.306 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'auditDataSource'
+2019-04-03 16:59:09.319 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: auditDataSource
+	...]
+2019-04-03 16:59:09.376 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+2019-04-03 16:59:09.377 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-04-03 16:59:09.378 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2019-04-03 16:59:09.419 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-04-03 16:59:09.636 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-03 16:59:09.824 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'auditDataSource'
+2019-04-03 16:59:15.006 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 
+2019-04-03 16:59:15.013 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService  'auditThreadPool'
+2019-04-03 16:59:15.345 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1f75a668: startup date [Wed Apr 03 16:59:05 CST 2019]; root of context hierarchy
+2019-04-03 16:59:15.422 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/ping]}" onto public java.lang.String cn.henry.springbootlearning.web.PingController.ping()
+2019-04-03 16:59:15.424 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/aaa]}" onto public java.lang.String cn.henry.springbootlearning.web.PingController.aaa(org.springframework.ui.ModelMap)
+2019-04-03 16:59:15.425 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/testlog]}" onto public java.lang.String cn.henry.springbootlearning.web.TestController.testLog(java.lang.String)
+2019-04-03 16:59:15.427 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-04-03 16:59:15.427 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-04-03 16:59:15.478 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-03 16:59:15.478 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-03 16:59:15.530 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-03 16:59:16.102 [main] INFO  o.s.w.servlet.view.freemarker.FreeMarkerConfigurer - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2019-04-03 16:59:16.298 [main] INFO  o.s.b.a.s.AuthenticationManagerConfiguration - 
+
+Using default security password: 74a38cf4-6533-42e8-b3d3-6645324879c4
+
+2019-04-03 16:59:16.346 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+2019-04-03 16:59:16.445 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration$ApplicationNoWebSecurityConfigurerAdapter$1@1c6ac73c, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@29892a77, org.springframework.security.web.context.SecurityContextPersistenceFilter@ab327c, org.springframework.security.web.header.HeaderWriterFilter@702096ef, org.springframework.security.web.csrf.CsrfFilter@40b31a16, org.springframework.security.web.authentication.logout.LogoutFilter@4a4b288a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@763b0996, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5ba184fc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5341e71a, org.springframework.security.web.session.SessionManagementFilter@52433946, org.springframework.security.web.access.ExceptionTranslationFilter@64757d56]
+2019-04-03 16:59:16.693 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-04-03 16:59:16.694 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'auditDataSource' has been autodetected for JMX exposure
+2019-04-03 16:59:16.700 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'auditDataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=auditDataSource,type=HikariDataSource]
+2019-04-03 16:59:16.710 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-04-03 16:59:16.718 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-04-03 16:59:16.726 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-04-03 16:59:16.750 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-04-03 16:59:16.765 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+2019-04-03 16:59:16.770 [main] INFO  c.h.s.SpringbootlearningApplication - Started SpringbootlearningApplication in 26.677 seconds (JVM running for 32.382)
+2019-04-03 16:59:29.763 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-04-03 16:59:29.763 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2019-04-03 16:59:29.780 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 17 ms
+2019-04-03 16:59:29.850 [http-nio-8080-exec-1] INFO  cn.henry.springbootlearning.aspect.LogAspect - URL : http://localhost:8080/ping ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : null
+2019-04-03 16:59:29.852 [http-nio-8080-exec-1] INFO  cn.henry.springbootlearning.aspect.LogAspect - response : hello
+2019-04-03 16:59:33.386 [http-nio-8080-exec-3] INFO  cn.henry.springbootlearning.aspect.LogAspect - URL : http://localhost:8080/testlog ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : param=qwe
+2019-04-03 16:59:33.389 [http-nio-8080-exec-3] INFO  cn.henry.springbootlearning.aspect.LogAspect - response : result = qwe
+2019-04-03 17:00:15.255 [Thread-56] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1f75a668: startup date [Wed Apr 03 16:59:05 CST 2019]; root of context hierarchy
+2019-04-03 17:00:15.258 [Thread-56] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2019-04-03 17:00:15.258 [Thread-56] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2019-04-03 17:00:15.259 [Thread-56] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'auditThreadPool'
+2019-04-03 17:00:16.509 [Thread-56] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'auditDataSource'
+2019-04-03 17:00:16.511 [Thread-56] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2019-04-03 17:00:16.521 [Thread-56] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2019-04-03 17:02:04.835 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2019-04-03 17:02:09.719 [main] INFO  c.h.s.SpringbootlearningApplication - Starting SpringbootlearningApplication on XiaohangdeMacBook-Pro.local with PID 11410 (/Users/xiaohangduan/Documents/workspace/springbootlearning/target/classes started by xiaohangduan in /Users/xiaohangduan/Documents/workspace/springbootlearning)
+2019-04-03 17:02:09.721 [main] INFO  c.h.s.SpringbootlearningApplication - No active profile set, falling back to default profiles: default
+2019-04-03 17:02:09.757 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1f75a668: startup date [Wed Apr 03 17:02:09 CST 2019]; root of context hierarchy
+2019-04-03 17:02:10.167 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-03 17:02:10.302 [main] INFO  o.s.b.factory.support.DefaultListableBeanFactory - Overriding bean definition for bean 'stringRedisTemplate' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=true; factoryBeanName=redisConfig; factoryMethodName=stringRedisTemplate; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [cn/henry/springbootlearning/config/redis/RedisConfig.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration$RedisConfiguration; factoryMethodName=stringRedisTemplate; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/data/redis/RedisAutoConfiguration$RedisConfiguration.class]]
+2019-04-03 17:02:10.319 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-03 17:02:11.126 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+2019-04-03 17:02:11.135 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-04-03 17:02:11.136 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2019-04-03 17:02:11.210 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-04-03 17:02:11.210 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1453 ms
+2019-04-03 17:02:11.397 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-04-03 17:02:11.398 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-04-03 17:02:11.398 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-04-03 17:02:11.398 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-04-03 17:02:11.399 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2019-04-03 17:02:11.399 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-04-03 17:02:11.441 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-04-03 17:02:13.552 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-04-03 17:02:13.662 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'auditDataSource'
+2019-04-03 17:02:13.674 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: auditDataSource
+	...]
+2019-04-03 17:02:13.729 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+2019-04-03 17:02:13.730 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-04-03 17:02:13.731 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2019-04-03 17:02:13.769 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-04-03 17:02:13.955 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-03 17:02:14.123 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'auditDataSource'
+2019-04-03 17:02:19.297 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 
+2019-04-03 17:02:19.305 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService  'auditThreadPool'
+2019-04-03 17:02:19.627 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1f75a668: startup date [Wed Apr 03 17:02:09 CST 2019]; root of context hierarchy
+2019-04-03 17:02:19.698 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/ping]}" onto public java.lang.String cn.henry.springbootlearning.web.PingController.ping()
+2019-04-03 17:02:19.700 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/aaa]}" onto public java.lang.String cn.henry.springbootlearning.web.PingController.aaa(org.springframework.ui.ModelMap)
+2019-04-03 17:02:19.701 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/testlog]}" onto public java.lang.String cn.henry.springbootlearning.web.TestController.testLog(java.lang.String)
+2019-04-03 17:02:19.703 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-04-03 17:02:19.704 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-04-03 17:02:19.752 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-03 17:02:19.752 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-03 17:02:19.804 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-03 17:02:20.352 [main] INFO  o.s.w.servlet.view.freemarker.FreeMarkerConfigurer - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2019-04-03 17:02:20.543 [main] INFO  o.s.b.a.s.AuthenticationManagerConfiguration - 
+
+Using default security password: afe365f6-e293-4ec6-b467-5546cb9488be
+
+2019-04-03 17:02:20.584 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+2019-04-03 17:02:20.649 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration$ApplicationNoWebSecurityConfigurerAdapter$1@2a4e939a, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@110620d, org.springframework.security.web.context.SecurityContextPersistenceFilter@11574592, org.springframework.security.web.header.HeaderWriterFilter@c6a692e, org.springframework.security.web.csrf.CsrfFilter@4d4b019e, org.springframework.security.web.authentication.logout.LogoutFilter@353b0719, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@315b5913, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6313b441, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4f402027, org.springframework.security.web.session.SessionManagementFilter@1fd37440, org.springframework.security.web.access.ExceptionTranslationFilter@7c421952]
+2019-04-03 17:02:20.879 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-04-03 17:02:20.880 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'auditDataSource' has been autodetected for JMX exposure
+2019-04-03 17:02:20.886 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'auditDataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=auditDataSource,type=HikariDataSource]
+2019-04-03 17:02:20.896 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-04-03 17:02:20.904 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-04-03 17:02:20.913 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-04-03 17:02:20.938 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-04-03 17:02:20.952 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+2019-04-03 17:02:20.957 [main] INFO  c.h.s.SpringbootlearningApplication - Started SpringbootlearningApplication in 26.449 seconds (JVM running for 32.205)
+2019-04-03 17:02:33.755 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-04-03 17:02:33.755 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2019-04-03 17:02:33.773 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 18 ms
+2019-04-03 17:02:33.849 [http-nio-8080-exec-2] INFO  cn.henry.springbootlearning.aspect.LogAspect - URL : http://localhost:8080/testlog ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : param=qwe
+2019-04-03 17:02:33.852 [http-nio-8080-exec-2] INFO  cn.henry.springbootlearning.aspect.LogAspect - response : result = qwe
+2019-04-03 17:02:42.467 [http-nio-8080-exec-3] INFO  cn.henry.springbootlearning.aspect.LogAspect - URL : http://localhost:8080/ping ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : null
+2019-04-03 17:02:42.470 [http-nio-8080-exec-3] INFO  cn.henry.springbootlearning.aspect.LogAspect - response : hello
+2019-04-03 17:05:31.673 [Thread-56] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1f75a668: startup date [Wed Apr 03 17:02:09 CST 2019]; root of context hierarchy
+2019-04-03 17:05:31.676 [Thread-56] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2019-04-03 17:05:31.676 [Thread-56] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2019-04-03 17:05:31.677 [Thread-56] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'auditThreadPool'
+2019-04-03 17:06:04.516 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2019-04-03 17:06:09.395 [main] INFO  c.h.s.SpringbootlearningApplication - Starting SpringbootlearningApplication on XiaohangdeMacBook-Pro.local with PID 11420 (/Users/xiaohangduan/Documents/workspace/springbootlearning/target/classes started by xiaohangduan in /Users/xiaohangduan/Documents/workspace/springbootlearning)
+2019-04-03 17:06:09.397 [main] INFO  c.h.s.SpringbootlearningApplication - No active profile set, falling back to default profiles: default
+2019-04-03 17:06:09.433 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4b7dc788: startup date [Wed Apr 03 17:06:09 CST 2019]; root of context hierarchy
+2019-04-03 17:06:09.873 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-03 17:06:10.011 [main] INFO  o.s.b.factory.support.DefaultListableBeanFactory - Overriding bean definition for bean 'stringRedisTemplate' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=true; factoryBeanName=redisConfig; factoryMethodName=stringRedisTemplate; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [cn/henry/springbootlearning/config/redis/RedisConfig.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration$RedisConfiguration; factoryMethodName=stringRedisTemplate; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/data/redis/RedisAutoConfiguration$RedisConfiguration.class]]
+2019-04-03 17:06:10.030 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-03 17:06:10.874 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+2019-04-03 17:06:10.882 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-04-03 17:06:10.883 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2019-04-03 17:06:10.959 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-04-03 17:06:10.959 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1526 ms
+2019-04-03 17:06:11.154 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-04-03 17:06:11.154 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-04-03 17:06:11.154 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-04-03 17:06:11.155 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-04-03 17:06:11.155 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2019-04-03 17:06:11.156 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-04-03 17:06:11.195 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-04-03 17:06:13.320 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-04-03 17:06:13.430 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'auditDataSource'
+2019-04-03 17:06:13.441 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: auditDataSource
+	...]
+2019-04-03 17:06:13.498 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+2019-04-03 17:06:13.499 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-04-03 17:06:13.501 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2019-04-03 17:06:13.548 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-04-03 17:06:13.727 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-03 17:06:13.895 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'auditDataSource'
+2019-04-03 17:06:19.077 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 
+2019-04-03 17:06:19.085 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService  'auditThreadPool'
+2019-04-03 17:06:19.420 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4b7dc788: startup date [Wed Apr 03 17:06:09 CST 2019]; root of context hierarchy
+2019-04-03 17:06:19.495 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/aaa]}" onto public java.lang.String cn.henry.springbootlearning.web.PingController.aaa(org.springframework.ui.ModelMap)
+2019-04-03 17:06:19.496 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/ping]}" onto public java.lang.String cn.henry.springbootlearning.web.PingController.ping()
+2019-04-03 17:06:19.496 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/testlog]}" onto public java.lang.String cn.henry.springbootlearning.web.TestController.testLog(java.lang.String)
+2019-04-03 17:06:19.498 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-04-03 17:06:19.499 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-04-03 17:06:19.550 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-03 17:06:19.550 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-03 17:06:19.607 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-03 17:06:20.166 [main] INFO  o.s.w.servlet.view.freemarker.FreeMarkerConfigurer - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2019-04-03 17:06:20.337 [main] INFO  o.s.b.a.s.AuthenticationManagerConfiguration - 
+
+Using default security password: 735fe95b-2375-4299-9254-582cd947d530
+
+2019-04-03 17:06:20.380 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+2019-04-03 17:06:20.452 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration$ApplicationNoWebSecurityConfigurerAdapter$1@7d537616, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@604c7e9b, org.springframework.security.web.context.SecurityContextPersistenceFilter@3dd2b9c1, org.springframework.security.web.header.HeaderWriterFilter@5922cff3, org.springframework.security.web.csrf.CsrfFilter@6068ebb2, org.springframework.security.web.authentication.logout.LogoutFilter@2c2a903f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@536da29c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5cbe95b1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@19d27c27, org.springframework.security.web.session.SessionManagementFilter@645ba24a, org.springframework.security.web.access.ExceptionTranslationFilter@57f0bfc3]
+2019-04-03 17:06:20.549 [main] WARN  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.session.SessionAutoConfiguration$SessionRepositoryValidator': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: No Spring Session store is configured: set the 'spring.session.store-type' property
+2019-04-03 17:06:20.550 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2019-04-03 17:06:20.550 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'auditThreadPool'
+2019-04-03 17:06:20.551 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'auditDataSource'
+2019-04-03 17:06:20.551 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2019-04-03 17:06:21.264 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2019-04-03 17:06:21.267 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2019-04-03 17:06:21.282 [main] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2019-04-03 17:06:21.289 [main] ERROR org.springframework.boot.SpringApplication - Application startup failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.session.SessionAutoConfiguration$SessionRepositoryValidator': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: No Spring Session store is configured: set the 'spring.session.store-type' property
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:137)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at cn.henry.springbootlearning.SpringbootlearningApplication.main(SpringbootlearningApplication.java:12)
+Caused by: java.lang.IllegalArgumentException: No Spring Session store is configured: set the 'spring.session.store-type' property
+	at org.springframework.boot.autoconfigure.session.SessionAutoConfiguration$SessionRepositoryValidator.checkSessionRepository(SessionAutoConfiguration.java:105)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:311)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:134)
+	... 18 common frames omitted
+2019-04-03 17:09:09.930 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2019-04-03 17:09:14.807 [main] INFO  c.h.s.SpringbootlearningApplication - Starting SpringbootlearningApplication on XiaohangdeMacBook-Pro.local with PID 11438 (/Users/xiaohangduan/Documents/workspace/springbootlearning/target/classes started by xiaohangduan in /Users/xiaohangduan/Documents/workspace/springbootlearning)
+2019-04-03 17:09:14.808 [main] INFO  c.h.s.SpringbootlearningApplication - No active profile set, falling back to default profiles: default
+2019-04-03 17:09:14.846 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1f75a668: startup date [Wed Apr 03 17:09:14 CST 2019]; root of context hierarchy
+2019-04-03 17:09:15.295 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-03 17:09:15.436 [main] INFO  o.s.b.factory.support.DefaultListableBeanFactory - Overriding bean definition for bean 'stringRedisTemplate' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=true; factoryBeanName=redisConfig; factoryMethodName=stringRedisTemplate; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [cn/henry/springbootlearning/config/redis/RedisConfig.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration$RedisConfiguration; factoryMethodName=stringRedisTemplate; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/data/redis/RedisAutoConfiguration$RedisConfiguration.class]]
+2019-04-03 17:09:15.455 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-03 17:09:16.387 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+2019-04-03 17:09:16.395 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-04-03 17:09:16.396 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2019-04-03 17:09:16.473 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-04-03 17:09:16.473 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1627 ms
+2019-04-03 17:09:16.651 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-04-03 17:09:16.652 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-04-03 17:09:16.652 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-04-03 17:09:16.652 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-04-03 17:09:16.653 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2019-04-03 17:09:16.653 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-04-03 17:09:16.692 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-04-03 17:09:18.763 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-04-03 17:09:18.870 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'auditDataSource'
+2019-04-03 17:09:18.885 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: auditDataSource
+	...]
+2019-04-03 17:09:18.941 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+2019-04-03 17:09:18.942 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-04-03 17:09:18.943 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2019-04-03 17:09:18.988 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-04-03 17:09:19.147 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-03 17:09:19.310 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'auditDataSource'
+2019-04-03 17:09:24.613 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 
+2019-04-03 17:09:24.620 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService  'auditThreadPool'
+2019-04-03 17:09:24.885 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1f75a668: startup date [Wed Apr 03 17:09:14 CST 2019]; root of context hierarchy
+2019-04-03 17:09:24.990 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/aaa]}" onto public java.lang.String cn.henry.springbootlearning.web.PingController.aaa(org.springframework.ui.ModelMap)
+2019-04-03 17:09:24.991 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/ping]}" onto public java.lang.String cn.henry.springbootlearning.web.PingController.ping()
+2019-04-03 17:09:24.992 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/testlog]}" onto public java.lang.String cn.henry.springbootlearning.web.TestController.testLog(java.lang.String)
+2019-04-03 17:09:24.994 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-04-03 17:09:24.995 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-04-03 17:09:25.061 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-03 17:09:25.061 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-03 17:09:25.120 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-03 17:09:25.659 [main] INFO  o.s.w.servlet.view.freemarker.FreeMarkerConfigurer - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2019-04-03 17:09:25.792 [main] INFO  o.s.b.a.s.AuthenticationManagerConfiguration - 
+
+Using default security password: 339aeb08-f96e-41af-8242-0f36fbfe02dd
+
+2019-04-03 17:09:25.837 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+2019-04-03 17:09:25.932 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@ff5d4f1, org.springframework.security.web.context.SecurityContextPersistenceFilter@70139a81, org.springframework.security.web.header.HeaderWriterFilter@1ed9d173, org.springframework.security.web.authentication.logout.LogoutFilter@58fbcb71, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2d07aacc, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@15e5246, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@70c56434, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@194224ca, org.springframework.security.web.session.SessionManagementFilter@4fa5cc73, org.springframework.security.web.access.ExceptionTranslationFilter@6068ebb2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@77ba583]
+2019-04-03 17:09:25.942 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration$ApplicationNoWebSecurityConfigurerAdapter$1@5c1c9881, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1c18ee69, org.springframework.security.web.context.SecurityContextPersistenceFilter@18db3b3c, org.springframework.security.web.header.HeaderWriterFilter@71fb8301, org.springframework.security.web.csrf.CsrfFilter@1a89414e, org.springframework.security.web.authentication.logout.LogoutFilter@1ddf42dd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@318e3942, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1c4057f9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2f99d8c, org.springframework.security.web.session.SessionManagementFilter@7cdfa824, org.springframework.security.web.access.ExceptionTranslationFilter@c94bd18]
+2019-04-03 17:09:26.173 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-04-03 17:09:26.174 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'auditDataSource' has been autodetected for JMX exposure
+2019-04-03 17:09:26.180 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'auditDataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=auditDataSource,type=HikariDataSource]
+2019-04-03 17:09:26.190 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-04-03 17:09:26.199 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-04-03 17:09:26.208 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-04-03 17:09:26.233 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-04-03 17:09:26.248 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+2019-04-03 17:09:26.254 [main] INFO  c.h.s.SpringbootlearningApplication - Started SpringbootlearningApplication in 26.661 seconds (JVM running for 32.397)
+2019-04-03 17:09:49.443 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-04-03 17:09:49.443 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2019-04-03 17:09:49.462 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 19 ms
+2019-04-03 17:09:49.542 [http-nio-8080-exec-2] INFO  cn.henry.springbootlearning.aspect.LogAspect - URL : http://localhost:8080/ping ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : null
+2019-04-03 17:09:49.544 [http-nio-8080-exec-2] INFO  cn.henry.springbootlearning.aspect.LogAspect - response : hello
+2019-04-03 17:10:41.089 [Thread-56] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1f75a668: startup date [Wed Apr 03 17:09:14 CST 2019]; root of context hierarchy
+2019-04-03 17:10:41.091 [Thread-56] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2019-04-03 17:10:41.092 [Thread-56] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2019-04-03 17:10:41.092 [Thread-56] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'auditThreadPool'
+2019-04-03 17:10:42.342 [Thread-56] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'auditDataSource'
+2019-04-03 17:10:42.344 [Thread-56] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2019-04-03 17:10:42.351 [Thread-56] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2019-04-03 17:11:11.050 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2019-04-03 17:11:15.927 [main] INFO  c.h.s.SpringbootlearningApplication - Starting SpringbootlearningApplication on XiaohangdeMacBook-Pro.local with PID 11442 (/Users/xiaohangduan/Documents/workspace/springbootlearning/target/classes started by xiaohangduan in /Users/xiaohangduan/Documents/workspace/springbootlearning)
+2019-04-03 17:11:15.929 [main] INFO  c.h.s.SpringbootlearningApplication - No active profile set, falling back to default profiles: default
+2019-04-03 17:11:15.968 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1f75a668: startup date [Wed Apr 03 17:11:15 CST 2019]; root of context hierarchy
+2019-04-03 17:11:16.410 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-03 17:11:16.554 [main] INFO  o.s.b.factory.support.DefaultListableBeanFactory - Overriding bean definition for bean 'stringRedisTemplate' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=true; factoryBeanName=redisConfig; factoryMethodName=stringRedisTemplate; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [cn/henry/springbootlearning/config/redis/RedisConfig.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration$RedisConfiguration; factoryMethodName=stringRedisTemplate; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/data/redis/RedisAutoConfiguration$RedisConfiguration.class]]
+2019-04-03 17:11:16.571 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-03 17:11:17.419 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+2019-04-03 17:11:17.428 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-04-03 17:11:17.429 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2019-04-03 17:11:17.504 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-04-03 17:11:17.504 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1536 ms
+2019-04-03 17:11:17.682 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-04-03 17:11:17.683 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-04-03 17:11:17.683 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-04-03 17:11:17.683 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-04-03 17:11:17.684 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2019-04-03 17:11:17.684 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-04-03 17:11:17.723 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-04-03 17:11:20.826 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-04-03 17:11:20.930 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'auditDataSource'
+2019-04-03 17:11:20.942 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: auditDataSource
+	...]
+2019-04-03 17:11:21.003 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+2019-04-03 17:11:21.004 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-04-03 17:11:21.005 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2019-04-03 17:11:21.042 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-04-03 17:11:21.201 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-03 17:11:21.373 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'auditDataSource'
+2019-04-03 17:11:26.695 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 
+2019-04-03 17:11:26.701 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService  'auditThreadPool'
+2019-04-03 17:11:26.966 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1f75a668: startup date [Wed Apr 03 17:11:15 CST 2019]; root of context hierarchy
+2019-04-03 17:11:27.036 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/ping]}" onto public java.lang.String cn.henry.springbootlearning.web.PingController.ping()
+2019-04-03 17:11:27.038 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/aaa]}" onto public java.lang.String cn.henry.springbootlearning.web.PingController.aaa(org.springframework.ui.ModelMap)
+2019-04-03 17:11:27.039 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/testlog]}" onto public java.lang.String cn.henry.springbootlearning.web.TestController.testLog(java.lang.String)
+2019-04-03 17:11:27.041 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-04-03 17:11:27.041 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-04-03 17:11:27.090 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-03 17:11:27.090 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-03 17:11:27.139 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-03 17:11:27.667 [main] INFO  o.s.w.servlet.view.freemarker.FreeMarkerConfigurer - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2019-04-03 17:11:27.795 [main] INFO  o.s.b.a.s.AuthenticationManagerConfiguration - 
+
+Using default security password: 639800d5-dd90-4ab7-81ae-ecaaa62ce0a1
+
+2019-04-03 17:11:27.845 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+2019-04-03 17:11:27.863 [main] WARN  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springSecurityFilterChain' defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.IllegalArgumentException: key cannot be empty or null
+2019-04-03 17:11:27.864 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2019-04-03 17:11:27.864 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'auditThreadPool'
+2019-04-03 17:11:27.865 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'auditDataSource'
+2019-04-03 17:11:27.866 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2019-04-03 17:11:28.691 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2019-04-03 17:11:28.695 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2019-04-03 17:11:28.709 [main] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2019-04-03 17:11:28.715 [main] ERROR org.springframework.boot.SpringApplication - Application startup failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springSecurityFilterChain' defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.IllegalArgumentException: key cannot be empty or null
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:296)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at cn.henry.springbootlearning.SpringbootlearningApplication.main(SpringbootlearningApplication.java:12)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.IllegalArgumentException: key cannot be empty or null
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:189)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588)
+	... 20 common frames omitted
+Caused by: java.lang.IllegalArgumentException: key cannot be empty or null
+	at org.springframework.util.Assert.hasLength(Assert.java:157)
+	at org.springframework.security.web.authentication.rememberme.AbstractRememberMeServices.<init>(AbstractRememberMeServices.java:89)
+	at org.springframework.security.web.authentication.rememberme.TokenBasedRememberMeServices.<init>(TokenBasedRememberMeServices.java:87)
+	at org.springframework.security.config.annotation.web.configurers.RememberMeConfigurer.createTokenBasedRememberMeServices(RememberMeConfigurer.java:395)
+	at org.springframework.security.config.annotation.web.configurers.RememberMeConfigurer.createRememberMeServices(RememberMeConfigurer.java:381)
+	at org.springframework.security.config.annotation.web.configurers.RememberMeConfigurer.getRememberMeServices(RememberMeConfigurer.java:346)
+	at org.springframework.security.config.annotation.web.configurers.RememberMeConfigurer.init(RememberMeConfigurer.java:269)
+	at org.springframework.security.config.annotation.web.configurers.RememberMeConfigurer.init(RememberMeConfigurer.java:80)
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.init(AbstractConfiguredSecurityBuilder.java:371)
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.doBuild(AbstractConfiguredSecurityBuilder.java:325)
+	at org.springframework.security.config.annotation.AbstractSecurityBuilder.build(AbstractSecurityBuilder.java:41)
+	at org.springframework.security.config.annotation.web.builders.WebSecurity.performBuild(WebSecurity.java:290)
+	at org.springframework.security.config.annotation.web.builders.WebSecurity.performBuild(WebSecurity.java:77)
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.doBuild(AbstractConfiguredSecurityBuilder.java:334)
+	at org.springframework.security.config.annotation.AbstractSecurityBuilder.build(AbstractSecurityBuilder.java:41)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration.springSecurityFilterChain(WebSecurityConfiguration.java:104)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$$EnhancerBySpringCGLIB$$7d5335d.CGLIB$springSecurityFilterChain$6(<generated>)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$$EnhancerBySpringCGLIB$$7d5335d$$FastClassBySpringCGLIB$$4b97326c.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:358)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$$EnhancerBySpringCGLIB$$7d5335d.springSecurityFilterChain(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162)
+	... 21 common frames omitted
+2019-04-03 17:13:45.606 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2019-04-03 17:13:50.488 [main] INFO  c.h.s.SpringbootlearningApplication - Starting SpringbootlearningApplication on XiaohangdeMacBook-Pro.local with PID 11462 (/Users/xiaohangduan/Documents/workspace/springbootlearning/target/classes started by xiaohangduan in /Users/xiaohangduan/Documents/workspace/springbootlearning)
+2019-04-03 17:13:50.489 [main] INFO  c.h.s.SpringbootlearningApplication - No active profile set, falling back to default profiles: default
+2019-04-03 17:13:50.526 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1f75a668: startup date [Wed Apr 03 17:13:50 CST 2019]; root of context hierarchy
+2019-04-03 17:13:50.926 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-03 17:13:51.061 [main] INFO  o.s.b.factory.support.DefaultListableBeanFactory - Overriding bean definition for bean 'stringRedisTemplate' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=true; factoryBeanName=redisConfig; factoryMethodName=stringRedisTemplate; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [cn/henry/springbootlearning/config/redis/RedisConfig.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration$RedisConfiguration; factoryMethodName=stringRedisTemplate; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/data/redis/RedisAutoConfiguration$RedisConfiguration.class]]
+2019-04-03 17:13:51.079 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-03 17:13:51.887 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+2019-04-03 17:13:51.896 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-04-03 17:13:51.897 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2019-04-03 17:13:51.972 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-04-03 17:13:51.972 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1446 ms
+2019-04-03 17:13:52.146 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-04-03 17:13:52.147 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-04-03 17:13:52.148 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-04-03 17:13:52.148 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-04-03 17:13:52.149 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2019-04-03 17:13:52.149 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-04-03 17:13:52.187 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-04-03 17:13:54.267 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-04-03 17:13:54.373 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'auditDataSource'
+2019-04-03 17:13:54.386 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: auditDataSource
+	...]
+2019-04-03 17:13:54.443 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+2019-04-03 17:13:54.445 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-04-03 17:13:54.446 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2019-04-03 17:13:54.484 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-04-03 17:13:54.641 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-03 17:13:54.813 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'auditDataSource'
+2019-04-03 17:14:00.114 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 
+2019-04-03 17:14:00.121 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService  'auditThreadPool'
+2019-04-03 17:14:00.381 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1f75a668: startup date [Wed Apr 03 17:13:50 CST 2019]; root of context hierarchy
+2019-04-03 17:14:00.452 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/ping]}" onto public java.lang.String cn.henry.springbootlearning.web.PingController.ping()
+2019-04-03 17:14:00.454 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/aaa]}" onto public java.lang.String cn.henry.springbootlearning.web.PingController.aaa(org.springframework.ui.ModelMap)
+2019-04-03 17:14:00.455 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/testlog]}" onto public java.lang.String cn.henry.springbootlearning.web.TestController.testLog(java.lang.String)
+2019-04-03 17:14:00.457 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-04-03 17:14:00.457 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-04-03 17:14:00.505 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-03 17:14:00.505 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-03 17:14:00.554 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-03 17:14:01.085 [main] INFO  o.s.w.servlet.view.freemarker.FreeMarkerConfigurer - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2019-04-03 17:14:01.216 [main] INFO  o.s.b.a.s.AuthenticationManagerConfiguration - 
+
+Using default security password: e16bd9e8-edac-4f07-8860-8c2a259eb5ac
+
+2019-04-03 17:14:01.265 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+2019-04-03 17:14:01.283 [main] WARN  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springSecurityFilterChain' defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.IllegalArgumentException: key cannot be empty or null
+2019-04-03 17:14:01.283 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2019-04-03 17:14:01.284 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'auditThreadPool'
+2019-04-03 17:14:01.284 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'auditDataSource'
+2019-04-03 17:14:01.285 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2019-04-03 17:14:02.090 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2019-04-03 17:14:02.093 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2019-04-03 17:14:02.106 [main] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2019-04-03 17:14:02.114 [main] ERROR org.springframework.boot.SpringApplication - Application startup failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springSecurityFilterChain' defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.IllegalArgumentException: key cannot be empty or null
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:296)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at cn.henry.springbootlearning.SpringbootlearningApplication.main(SpringbootlearningApplication.java:12)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.IllegalArgumentException: key cannot be empty or null
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:189)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588)
+	... 20 common frames omitted
+Caused by: java.lang.IllegalArgumentException: key cannot be empty or null
+	at org.springframework.util.Assert.hasLength(Assert.java:157)
+	at org.springframework.security.web.authentication.rememberme.AbstractRememberMeServices.<init>(AbstractRememberMeServices.java:89)
+	at org.springframework.security.web.authentication.rememberme.TokenBasedRememberMeServices.<init>(TokenBasedRememberMeServices.java:87)
+	at org.springframework.security.config.annotation.web.configurers.RememberMeConfigurer.createTokenBasedRememberMeServices(RememberMeConfigurer.java:395)
+	at org.springframework.security.config.annotation.web.configurers.RememberMeConfigurer.createRememberMeServices(RememberMeConfigurer.java:381)
+	at org.springframework.security.config.annotation.web.configurers.RememberMeConfigurer.getRememberMeServices(RememberMeConfigurer.java:346)
+	at org.springframework.security.config.annotation.web.configurers.RememberMeConfigurer.init(RememberMeConfigurer.java:269)
+	at org.springframework.security.config.annotation.web.configurers.RememberMeConfigurer.init(RememberMeConfigurer.java:80)
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.init(AbstractConfiguredSecurityBuilder.java:371)
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.doBuild(AbstractConfiguredSecurityBuilder.java:325)
+	at org.springframework.security.config.annotation.AbstractSecurityBuilder.build(AbstractSecurityBuilder.java:41)
+	at org.springframework.security.config.annotation.web.builders.WebSecurity.performBuild(WebSecurity.java:290)
+	at org.springframework.security.config.annotation.web.builders.WebSecurity.performBuild(WebSecurity.java:77)
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.doBuild(AbstractConfiguredSecurityBuilder.java:334)
+	at org.springframework.security.config.annotation.AbstractSecurityBuilder.build(AbstractSecurityBuilder.java:41)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration.springSecurityFilterChain(WebSecurityConfiguration.java:104)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$$EnhancerBySpringCGLIB$$dbcfb154.CGLIB$springSecurityFilterChain$0(<generated>)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$$EnhancerBySpringCGLIB$$dbcfb154$$FastClassBySpringCGLIB$$517a6bfa.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:358)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$$EnhancerBySpringCGLIB$$dbcfb154.springSecurityFilterChain(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162)
+	... 21 common frames omitted
