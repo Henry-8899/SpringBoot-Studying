@@ -1,4 +1,4 @@
-package cn.henry.springbootlearning.web;
+package cn.henry.springbootlearning.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;

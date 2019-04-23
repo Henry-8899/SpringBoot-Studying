@@ -3,7 +3,9 @@ package cn.henry.springbootlearning.aspect.accesslimit;
 import java.lang.annotation.*;
 import java.util.concurrent.TimeUnit;
 /**
- * @Description:guava限流；（每秒钟向桶中放入指定的令牌数，如果每秒桶中的令牌数消耗完毕，则在当秒其他请求会直接返回"服务器繁忙"(等待时间为0情况下);）
+ * @Description:guava限流；
+ *              （每秒钟向桶中放入指定的令牌数，如果每秒桶中的令牌数消耗完毕，则在当秒其他请求会直接返回"服务器繁忙"(等待时间为0情况下);）
+ *                  参考：https://blog.csdn.net/aa1215018028/article/details/80866335
  * @Author:hang
  * @Data:2019-04-23 15:55
  **/

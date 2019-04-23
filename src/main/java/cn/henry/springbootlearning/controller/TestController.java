@@ -1,4 +1,4 @@
-package cn.henry.springbootlearning.web;
+package cn.henry.springbootlearning.controller;
 
 import cn.henry.springbootlearning.aspect.accesslimit.LxRateLimit;
 import lombok.extern.slf4j.Slf4j;
