@@ -35,7 +35,7 @@ public class AuthSecurityConfig extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception {
         http.csrf().disable()
                 .authorizeRequests()
-                .antMatchers("/ping").permitAll()
+                .antMatchers("/ping","/testlog").permitAll()
                 .anyRequest().authenticated()
         .and()
         .httpBasic()

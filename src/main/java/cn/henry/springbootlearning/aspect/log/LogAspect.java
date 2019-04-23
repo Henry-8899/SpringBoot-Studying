@@ -1,4 +1,4 @@
-package cn.henry.springbootlearning.aspect;
+package cn.henry.springbootlearning.aspect.log;
 
 import cn.henry.springbootlearning.utils.HttpRequestHelper;
 import lombok.extern.slf4j.Slf4j;

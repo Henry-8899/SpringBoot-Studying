@@ -152,7 +152,7 @@ execution(@org.springframework.web.bind.annotation.RequestMapping* *(..)
 2019-04-03 11:33:42.849 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
 2019-04-03 11:33:42.849 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
 2019-04-03 11:33:42.869 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 19 ms
-2019-04-03 11:33:42.958 [http-nio-8080-exec-2] INFO  cn.henry.springbootlearning.aspect.LogAspect - URL : http://localhost:8080/index ;HTTP_METHOD : GET ;IP : [{}] ;ARGS : {}
+2019-04-03 11:33:42.958 [http-nio-8080-exec-2] INFO  cn.henry.springbootlearning.aspect.log.LogAspect - URL : http://localhost:8080/index ;HTTP_METHOD : GET ;IP : [{}] ;ARGS : {}
 2019-04-03 11:33:42.984 [http-nio-8080-exec-2] INFO  org.thymeleaf.TemplateEngine - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
 2019-04-03 11:33:43.023 [http-nio-8080-exec-2] INFO  o.t.templateresolver.AbstractTemplateResolver - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
 2019-04-03 11:33:43.023 [http-nio-8080-exec-2] INFO  o.t.templateresolver.AbstractTemplateResolver - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
@@ -322,10 +322,10 @@ org.xml.sax.SAXParseException: 元素类型 "meta" 必须由匹配的结束标�
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-03 11:33:43.082 [http-nio-8080-exec-2] INFO  cn.henry.springbootlearning.aspect.LogAspect - URL : http://localhost:8080/error ;HTTP_METHOD : GET ;IP : [org.apache.catalina.core.ApplicationHttpRequest@1d96b828] ;ARGS : {}
-2019-04-03 11:33:48.422 [http-nio-8080-exec-4] INFO  cn.henry.springbootlearning.aspect.LogAspect - URL : http://localhost:8080/ping ;HTTP_METHOD : GET ;IP : [] ;ARGS : {}
-2019-04-03 11:34:11.882 [http-nio-8080-exec-5] INFO  cn.henry.springbootlearning.aspect.LogAspect - URL : http://localhost:8080/ping ;HTTP_METHOD : GET ;IP : [] ;ARGS : {}
-2019-04-03 11:34:43.717 [http-nio-8080-exec-6] INFO  cn.henry.springbootlearning.aspect.LogAspect - URL : http://localhost:8080/index ;HTTP_METHOD : GET ;IP : [{}] ;ARGS : {}
+2019-04-03 11:33:43.082 [http-nio-8080-exec-2] INFO  cn.henry.springbootlearning.aspect.log.LogAspect - URL : http://localhost:8080/error ;HTTP_METHOD : GET ;IP : [org.apache.catalina.core.ApplicationHttpRequest@1d96b828] ;ARGS : {}
+2019-04-03 11:33:48.422 [http-nio-8080-exec-4] INFO  cn.henry.springbootlearning.aspect.log.LogAspect - URL : http://localhost:8080/ping ;HTTP_METHOD : GET ;IP : [] ;ARGS : {}
+2019-04-03 11:34:11.882 [http-nio-8080-exec-5] INFO  cn.henry.springbootlearning.aspect.log.LogAspect - URL : http://localhost:8080/ping ;HTTP_METHOD : GET ;IP : [] ;ARGS : {}
+2019-04-03 11:34:43.717 [http-nio-8080-exec-6] INFO  cn.henry.springbootlearning.aspect.log.LogAspect - URL : http://localhost:8080/index ;HTTP_METHOD : GET ;IP : [{}] ;ARGS : {}
 2019-04-03 11:34:43.720 [http-nio-8080-exec-6] ERROR org.thymeleaf.templateparser.ErrorHandler - [THYMELEAF][http-nio-8080-exec-6] Fatal error during parsing
 org.xml.sax.SAXParseException: 元素类型 "meta" 必须由匹配的结束标记 "</meta>" 终止。
 	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
@@ -471,8 +471,8 @@ org.xml.sax.SAXParseException: 元素类型 "meta" 必须由匹配的结束标�
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-03 11:34:43.722 [http-nio-8080-exec-6] INFO  cn.henry.springbootlearning.aspect.LogAspect - URL : http://localhost:8080/error ;HTTP_METHOD : GET ;IP : [org.apache.catalina.core.ApplicationHttpRequest@5c3b8ca0] ;ARGS : {}
-2019-04-03 11:35:38.468 [http-nio-8080-exec-7] INFO  cn.henry.springbootlearning.aspect.LogAspect - URL : http://localhost:8080/index ;HTTP_METHOD : GET ;IP : [{}] ;ARGS : {}
+2019-04-03 11:34:43.722 [http-nio-8080-exec-6] INFO  cn.henry.springbootlearning.aspect.log.LogAspect - URL : http://localhost:8080/error ;HTTP_METHOD : GET ;IP : [org.apache.catalina.core.ApplicationHttpRequest@5c3b8ca0] ;ARGS : {}
+2019-04-03 11:35:38.468 [http-nio-8080-exec-7] INFO  cn.henry.springbootlearning.aspect.log.LogAspect - URL : http://localhost:8080/index ;HTTP_METHOD : GET ;IP : [{}] ;ARGS : {}
 2019-04-03 11:35:38.473 [http-nio-8080-exec-7] ERROR org.thymeleaf.templateparser.ErrorHandler - [THYMELEAF][http-nio-8080-exec-7] Fatal error during parsing
 org.xml.sax.SAXParseException: 元素类型 "meta" 必须由匹配的结束标记 "</meta>" 终止。
 	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
@@ -618,7 +618,7 @@ org.xml.sax.SAXParseException: 元素类型 "meta" 必须由匹配的结束标�
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-03 11:35:38.477 [http-nio-8080-exec-7] INFO  cn.henry.springbootlearning.aspect.LogAspect - URL : http://localhost:8080/error ;HTTP_METHOD : GET ;IP : [org.apache.catalina.core.ApplicationHttpRequest@5f290cff, org.apache.catalina.connector.ResponseFacade@28adec67] ;ARGS : {}
+2019-04-03 11:35:38.477 [http-nio-8080-exec-7] INFO  cn.henry.springbootlearning.aspect.log.LogAspect - URL : http://localhost:8080/error ;HTTP_METHOD : GET ;IP : [org.apache.catalina.core.ApplicationHttpRequest@5f290cff, org.apache.catalina.connector.ResponseFacade@28adec67] ;ARGS : {}
 2019-04-03 11:36:22.544 [Thread-56] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@662706a7: startup date [Wed Apr 03 11:33:19 CST 2019]; root of context hierarchy
 2019-04-03 11:36:22.545 [Thread-56] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
 2019-04-03 11:36:22.546 [Thread-56] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
@@ -679,7 +679,7 @@ org.xml.sax.SAXParseException: 元素类型 "meta" 必须由匹配的结束标�
 2019-04-03 11:37:55.032 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
 2019-04-03 11:37:55.032 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
 2019-04-03 11:37:55.049 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 17 ms
-2019-04-03 11:37:55.124 [http-nio-8080-exec-1] INFO  cn.henry.springbootlearning.aspect.LogAspect - URL : http://localhost:8080/index ;HTTP_METHOD : GET ;IP : 0:0:0:0:0:0:0:1 ;ARGS : [{}]
+2019-04-03 11:37:55.124 [http-nio-8080-exec-1] INFO  cn.henry.springbootlearning.aspect.log.LogAspect - URL : http://localhost:8080/index ;HTTP_METHOD : GET ;IP : 0:0:0:0:0:0:0:1 ;ARGS : [{}]
 2019-04-03 11:37:55.149 [http-nio-8080-exec-1] INFO  org.thymeleaf.TemplateEngine - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
 2019-04-03 11:37:55.181 [http-nio-8080-exec-1] INFO  o.t.templateresolver.AbstractTemplateResolver - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
 2019-04-03 11:37:55.181 [http-nio-8080-exec-1] INFO  o.t.templateresolver.AbstractTemplateResolver - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
@@ -849,8 +849,8 @@ org.xml.sax.SAXParseException: 元素类型 "meta" 必须由匹配的结束标�
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-03 11:37:55.230 [http-nio-8080-exec-1] INFO  cn.henry.springbootlearning.aspect.LogAspect - URL : http://localhost:8080/error ;HTTP_METHOD : GET ;IP : 0:0:0:0:0:0:0:1 ;ARGS : [org.apache.catalina.core.ApplicationHttpRequest@69fc8931, org.apache.catalina.connector.ResponseFacade@5cbb3df3]
-2019-04-03 11:38:39.295 [http-nio-8080-exec-3] INFO  cn.henry.springbootlearning.aspect.LogAspect - URL : http://localhost:8080/aaa ;HTTP_METHOD : GET ;IP : 0:0:0:0:0:0:0:1 ;ARGS : [{}]
+2019-04-03 11:37:55.230 [http-nio-8080-exec-1] INFO  cn.henry.springbootlearning.aspect.log.LogAspect - URL : http://localhost:8080/error ;HTTP_METHOD : GET ;IP : 0:0:0:0:0:0:0:1 ;ARGS : [org.apache.catalina.core.ApplicationHttpRequest@69fc8931, org.apache.catalina.connector.ResponseFacade@5cbb3df3]
+2019-04-03 11:38:39.295 [http-nio-8080-exec-3] INFO  cn.henry.springbootlearning.aspect.log.LogAspect - URL : http://localhost:8080/aaa ;HTTP_METHOD : GET ;IP : 0:0:0:0:0:0:0:1 ;ARGS : [{}]
 2019-04-03 11:41:37.433 [Thread-55] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@662706a7: startup date [Wed Apr 03 11:37:39 CST 2019]; root of context hierarchy
 2019-04-03 11:41:37.436 [Thread-55] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
 2019-04-03 11:41:37.436 [Thread-55] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
@@ -908,7 +908,7 @@ org.xml.sax.SAXParseException: 元素类型 "meta" 必须由匹配的结束标�
 2019-04-03 11:42:28.063 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
 2019-04-03 11:42:28.063 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
 2019-04-03 11:42:28.081 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 18 ms
-2019-04-03 11:42:28.161 [http-nio-8080-exec-1] INFO  cn.henry.springbootlearning.aspect.LogAspect - URL : http://localhost:8080/aaa ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : [{}]
+2019-04-03 11:42:28.161 [http-nio-8080-exec-1] INFO  cn.henry.springbootlearning.aspect.log.LogAspect - URL : http://localhost:8080/aaa ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : [{}]
 2019-04-03 11:51:11.481 [Thread-56] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@662706a7: startup date [Wed Apr 03 11:42:13 CST 2019]; root of context hierarchy
 2019-04-03 11:51:11.483 [Thread-56] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
 2019-04-03 11:51:11.483 [Thread-56] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
@@ -967,7 +967,7 @@ org.xml.sax.SAXParseException: 元素类型 "meta" 必须由匹配的结束标�
 2019-04-03 11:52:33.586 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
 2019-04-03 11:52:33.586 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
 2019-04-03 11:52:33.604 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 18 ms
-2019-04-03 11:52:33.684 [http-nio-8080-exec-2] INFO  cn.henry.springbootlearning.aspect.LogAspect - URL : http://localhost:8080/testlog ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : [qwe]
+2019-04-03 11:52:33.684 [http-nio-8080-exec-2] INFO  cn.henry.springbootlearning.aspect.log.LogAspect - URL : http://localhost:8080/testlog ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : [qwe]
 2019-04-03 11:52:33.707 [http-nio-8080-exec-2] INFO  org.thymeleaf.TemplateEngine - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
 2019-04-03 11:52:33.736 [http-nio-8080-exec-2] INFO  o.t.templateresolver.AbstractTemplateResolver - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
 2019-04-03 11:52:33.737 [http-nio-8080-exec-2] INFO  o.t.templateresolver.AbstractTemplateResolver - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
@@ -1047,7 +1047,7 @@ org.thymeleaf.exceptions.TemplateInputException: Error resolving template "qwe",
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-03 11:52:33.773 [http-nio-8080-exec-2] INFO  cn.henry.springbootlearning.aspect.LogAspect - URL : http://localhost:8080/error ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : [org.apache.catalina.core.ApplicationHttpRequest@106b83dc]
+2019-04-03 11:52:33.773 [http-nio-8080-exec-2] INFO  cn.henry.springbootlearning.aspect.log.LogAspect - URL : http://localhost:8080/error ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : [org.apache.catalina.core.ApplicationHttpRequest@106b83dc]
 2019-04-03 11:53:21.973 [Thread-56] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@662706a7: startup date [Wed Apr 03 11:51:49 CST 2019]; root of context hierarchy
 2019-04-03 11:53:21.975 [Thread-56] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
 2019-04-03 11:53:21.976 [Thread-56] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
@@ -1106,7 +1106,7 @@ org.thymeleaf.exceptions.TemplateInputException: Error resolving template "qwe",
 2019-04-03 11:54:16.725 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
 2019-04-03 11:54:16.725 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
 2019-04-03 11:54:16.741 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 16 ms
-2019-04-03 11:54:16.814 [http-nio-8080-exec-1] INFO  cn.henry.springbootlearning.aspect.LogAspect - URL : http://localhost:8080/testlog ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : [qwe]
+2019-04-03 11:54:16.814 [http-nio-8080-exec-1] INFO  cn.henry.springbootlearning.aspect.log.LogAspect - URL : http://localhost:8080/testlog ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : [qwe]
 2019-04-03 11:54:16.837 [http-nio-8080-exec-1] INFO  org.thymeleaf.TemplateEngine - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
 2019-04-03 11:54:16.867 [http-nio-8080-exec-1] INFO  o.t.templateresolver.AbstractTemplateResolver - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
 2019-04-03 11:54:16.867 [http-nio-8080-exec-1] INFO  o.t.templateresolver.AbstractTemplateResolver - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
@@ -1186,7 +1186,7 @@ org.thymeleaf.exceptions.TemplateInputException: Error resolving template "qwe",
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-03 11:54:16.907 [http-nio-8080-exec-1] INFO  cn.henry.springbootlearning.aspect.LogAspect - URL : http://localhost:8080/error ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : [org.apache.catalina.core.ApplicationHttpRequest@1822d5a]
+2019-04-03 11:54:16.907 [http-nio-8080-exec-1] INFO  cn.henry.springbootlearning.aspect.log.LogAspect - URL : http://localhost:8080/error ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : [org.apache.catalina.core.ApplicationHttpRequest@1822d5a]
 2019-04-03 11:55:08.122 [Thread-55] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@662706a7: startup date [Wed Apr 03 11:53:56 CST 2019]; root of context hierarchy
 2019-04-03 11:55:08.125 [Thread-55] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
 2019-04-03 11:55:08.126 [Thread-55] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
@@ -1248,7 +1248,7 @@ org.thymeleaf.exceptions.TemplateInputException: Error resolving template "qwe",
 2019-04-03 11:56:02.174 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
 2019-04-03 11:56:02.174 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
 2019-04-03 11:56:02.191 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 17 ms
-2019-04-03 11:56:02.266 [http-nio-8080-exec-1] INFO  cn.henry.springbootlearning.aspect.LogAspect - URL : http://localhost:8080/testlog ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : [qwe]
+2019-04-03 11:56:02.266 [http-nio-8080-exec-1] INFO  cn.henry.springbootlearning.aspect.log.LogAspect - URL : http://localhost:8080/testlog ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : [qwe]
 2019-04-03 11:56:02.289 [http-nio-8080-exec-1] INFO  org.thymeleaf.TemplateEngine - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
 2019-04-03 11:56:02.320 [http-nio-8080-exec-1] INFO  o.t.templateresolver.AbstractTemplateResolver - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
 2019-04-03 11:56:02.320 [http-nio-8080-exec-1] INFO  o.t.templateresolver.AbstractTemplateResolver - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
@@ -1328,7 +1328,7 @@ org.thymeleaf.exceptions.TemplateInputException: Error resolving template "qwe",
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-03 11:56:02.358 [http-nio-8080-exec-1] INFO  cn.henry.springbootlearning.aspect.LogAspect - URL : http://localhost:8080/error ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : [org.apache.catalina.core.ApplicationHttpRequest@7d43971e]
+2019-04-03 11:56:02.358 [http-nio-8080-exec-1] INFO  cn.henry.springbootlearning.aspect.log.LogAspect - URL : http://localhost:8080/error ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : [org.apache.catalina.core.ApplicationHttpRequest@7d43971e]
 2019-04-03 12:16:04.982 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m48s34ms).
 2019-04-03 12:22:23.186 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m18s204ms).
 2019-04-03 13:33:07.910 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h10m44s724ms).
@@ -1393,7 +1393,7 @@ org.thymeleaf.exceptions.TemplateInputException: Error resolving template "qwe",
 2019-04-03 13:35:51.789 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
 2019-04-03 13:35:51.790 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
 2019-04-03 13:35:51.808 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 18 ms
-2019-04-03 13:35:51.891 [http-nio-8080-exec-2] INFO  cn.henry.springbootlearning.aspect.LogAspect - URL : http://localhost:8080/testlog ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : [qwe]
+2019-04-03 13:35:51.891 [http-nio-8080-exec-2] INFO  cn.henry.springbootlearning.aspect.log.LogAspect - URL : http://localhost:8080/testlog ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : [qwe]
 2019-04-03 13:35:51.914 [http-nio-8080-exec-2] INFO  org.thymeleaf.TemplateEngine - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
 2019-04-03 13:35:51.944 [http-nio-8080-exec-2] INFO  o.t.templateresolver.AbstractTemplateResolver - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
 2019-04-03 13:35:51.944 [http-nio-8080-exec-2] INFO  o.t.templateresolver.AbstractTemplateResolver - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
@@ -1473,7 +1473,7 @@ org.thymeleaf.exceptions.TemplateInputException: Error resolving template "qwe",
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-03 13:35:51.982 [http-nio-8080-exec-2] INFO  cn.henry.springbootlearning.aspect.LogAspect - URL : http://localhost:8080/error ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : [org.apache.catalina.core.ApplicationHttpRequest@4883a006]
+2019-04-03 13:35:51.982 [http-nio-8080-exec-2] INFO  cn.henry.springbootlearning.aspect.log.LogAspect - URL : http://localhost:8080/error ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : [org.apache.catalina.core.ApplicationHttpRequest@4883a006]
 2019-04-03 13:37:41.539 [Thread-56] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@19e7a160: startup date [Wed Apr 03 13:35:37 CST 2019]; root of context hierarchy
 2019-04-03 13:37:41.541 [Thread-56] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
 2019-04-03 13:37:41.541 [Thread-56] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
@@ -1535,8 +1535,8 @@ org.thymeleaf.exceptions.TemplateInputException: Error resolving template "qwe",
 2019-04-03 13:38:36.962 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
 2019-04-03 13:38:36.962 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
 2019-04-03 13:38:36.979 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 16 ms
-2019-04-03 13:38:37.053 [http-nio-8080-exec-2] INFO  cn.henry.springbootlearning.aspect.LogAspect - URL : http://localhost:8080/testlog ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : [qwe]
-2019-04-03 13:38:37.079 [http-nio-8080-exec-2] INFO  cn.henry.springbootlearning.aspect.LogAspect - URL : http://localhost:8080/error ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : [org.apache.catalina.core.ApplicationHttpRequest@621a6abc]
+2019-04-03 13:38:37.053 [http-nio-8080-exec-2] INFO  cn.henry.springbootlearning.aspect.log.LogAspect - URL : http://localhost:8080/testlog ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : [qwe]
+2019-04-03 13:38:37.079 [http-nio-8080-exec-2] INFO  cn.henry.springbootlearning.aspect.log.LogAspect - URL : http://localhost:8080/error ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : [org.apache.catalina.core.ApplicationHttpRequest@621a6abc]
 2019-04-03 13:39:08.699 [Thread-55] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3eb81efb: startup date [Wed Apr 03 13:38:18 CST 2019]; root of context hierarchy
 2019-04-03 13:39:08.700 [Thread-55] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
 2019-04-03 13:39:08.701 [Thread-55] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
@@ -1598,10 +1598,10 @@ org.thymeleaf.exceptions.TemplateInputException: Error resolving template "qwe",
 2019-04-03 13:40:26.479 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
 2019-04-03 13:40:26.479 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
 2019-04-03 13:40:26.496 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 17 ms
-2019-04-03 13:40:26.576 [http-nio-8080-exec-1] INFO  cn.henry.springbootlearning.aspect.LogAspect - URL : http://localhost:8080/testlog ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : [qwe]
-2019-04-03 13:41:31.125 [http-nio-8080-exec-5] INFO  cn.henry.springbootlearning.aspect.LogAspect - URL : http://localhost:8080/aaa ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : [{}]
-2019-04-03 13:41:43.957 [http-nio-8080-exec-6] INFO  cn.henry.springbootlearning.aspect.LogAspect - URL : http://localhost:8080/error ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : [org.apache.catalina.core.ApplicationHttpRequest@7d28271b]
-2019-04-03 13:41:54.040 [http-nio-8080-exec-7] INFO  cn.henry.springbootlearning.aspect.LogAspect - URL : http://localhost:8080/index ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : [{}]
+2019-04-03 13:40:26.576 [http-nio-8080-exec-1] INFO  cn.henry.springbootlearning.aspect.log.LogAspect - URL : http://localhost:8080/testlog ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : [qwe]
+2019-04-03 13:41:31.125 [http-nio-8080-exec-5] INFO  cn.henry.springbootlearning.aspect.log.LogAspect - URL : http://localhost:8080/aaa ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : [{}]
+2019-04-03 13:41:43.957 [http-nio-8080-exec-6] INFO  cn.henry.springbootlearning.aspect.log.LogAspect - URL : http://localhost:8080/error ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : [org.apache.catalina.core.ApplicationHttpRequest@7d28271b]
+2019-04-03 13:41:54.040 [http-nio-8080-exec-7] INFO  cn.henry.springbootlearning.aspect.log.LogAspect - URL : http://localhost:8080/index ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : [{}]
 2019-04-03 13:42:34.499 [Thread-55] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3eb81efb: startup date [Wed Apr 03 13:40:06 CST 2019]; root of context hierarchy
 2019-04-03 13:42:34.501 [Thread-55] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
 2019-04-03 13:42:34.502 [Thread-55] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
@@ -1663,9 +1663,9 @@ org.thymeleaf.exceptions.TemplateInputException: Error resolving template "qwe",
 2019-04-03 13:44:29.923 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
 2019-04-03 13:44:29.923 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
 2019-04-03 13:44:29.940 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 17 ms
-2019-04-03 13:44:30.013 [http-nio-8080-exec-2] INFO  cn.henry.springbootlearning.aspect.LogAspect - URL : http://localhost:8080/index ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : [{}]
-2019-04-03 13:44:30.040 [http-nio-8080-exec-2] INFO  cn.henry.springbootlearning.aspect.LogAspect - URL : http://localhost:8080/error ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : [org.apache.catalina.core.ApplicationHttpRequest@3b453716]
-2019-04-03 13:44:58.425 [http-nio-8080-exec-3] INFO  cn.henry.springbootlearning.aspect.LogAspect - URL : http://localhost:8080/aaa ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : [{}]
+2019-04-03 13:44:30.013 [http-nio-8080-exec-2] INFO  cn.henry.springbootlearning.aspect.log.LogAspect - URL : http://localhost:8080/index ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : [{}]
+2019-04-03 13:44:30.040 [http-nio-8080-exec-2] INFO  cn.henry.springbootlearning.aspect.log.LogAspect - URL : http://localhost:8080/error ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : [org.apache.catalina.core.ApplicationHttpRequest@3b453716]
+2019-04-03 13:44:58.425 [http-nio-8080-exec-3] INFO  cn.henry.springbootlearning.aspect.log.LogAspect - URL : http://localhost:8080/aaa ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : [{}]
 2019-04-03 13:45:08.307 [Thread-55] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3eb81efb: startup date [Wed Apr 03 13:44:07 CST 2019]; root of context hierarchy
 2019-04-03 13:45:08.308 [Thread-55] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
 2019-04-03 13:45:08.309 [Thread-55] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
@@ -1727,8 +1727,8 @@ org.thymeleaf.exceptions.TemplateInputException: Error resolving template "qwe",
 2019-04-03 13:46:05.241 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
 2019-04-03 13:46:05.241 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
 2019-04-03 13:46:05.259 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 18 ms
-2019-04-03 13:46:05.336 [http-nio-8080-exec-2] INFO  cn.henry.springbootlearning.aspect.LogAspect - URL : http://localhost:8080/aaa ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : [{}]
-2019-04-03 13:46:09.546 [http-nio-8080-exec-3] INFO  cn.henry.springbootlearning.aspect.LogAspect - URL : http://localhost:8080/index ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : [{}]
+2019-04-03 13:46:05.336 [http-nio-8080-exec-2] INFO  cn.henry.springbootlearning.aspect.log.LogAspect - URL : http://localhost:8080/aaa ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : [{}]
+2019-04-03 13:46:09.546 [http-nio-8080-exec-3] INFO  cn.henry.springbootlearning.aspect.log.LogAspect - URL : http://localhost:8080/index ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : [{}]
 2019-04-03 13:46:09.550 [http-nio-8080-exec-3] INFO  org.thymeleaf.TemplateEngine - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
 2019-04-03 13:46:09.588 [http-nio-8080-exec-3] INFO  o.t.templateresolver.AbstractTemplateResolver - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
 2019-04-03 13:46:09.588 [http-nio-8080-exec-3] INFO  o.t.templateresolver.AbstractTemplateResolver - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
@@ -1898,8 +1898,8 @@ org.xml.sax.SAXParseException: 元素类型 "meta" 必须由匹配的结束标�
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-03 13:46:09.642 [http-nio-8080-exec-3] INFO  cn.henry.springbootlearning.aspect.LogAspect - URL : http://localhost:8080/error ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : [org.apache.catalina.core.ApplicationHttpRequest@5f49e28e]
-2019-04-03 13:46:17.872 [http-nio-8080-exec-5] INFO  cn.henry.springbootlearning.aspect.LogAspect - URL : http://localhost:8080/index ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : [{}]
+2019-04-03 13:46:09.642 [http-nio-8080-exec-3] INFO  cn.henry.springbootlearning.aspect.log.LogAspect - URL : http://localhost:8080/error ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : [org.apache.catalina.core.ApplicationHttpRequest@5f49e28e]
+2019-04-03 13:46:17.872 [http-nio-8080-exec-5] INFO  cn.henry.springbootlearning.aspect.log.LogAspect - URL : http://localhost:8080/index ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : [{}]
 2019-04-03 13:46:17.876 [http-nio-8080-exec-5] ERROR org.thymeleaf.templateparser.ErrorHandler - [THYMELEAF][http-nio-8080-exec-5] Fatal error during parsing
 org.xml.sax.SAXParseException: 元素类型 "meta" 必须由匹配的结束标记 "</meta>" 终止。
 	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
@@ -2045,8 +2045,8 @@ org.xml.sax.SAXParseException: 元素类型 "meta" 必须由匹配的结束标�
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-03 13:46:17.879 [http-nio-8080-exec-5] INFO  cn.henry.springbootlearning.aspect.LogAspect - URL : http://localhost:8080/error ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : [org.apache.catalina.core.ApplicationHttpRequest@4a6ad6e0]
-2019-04-03 13:47:57.449 [http-nio-8080-exec-7] INFO  cn.henry.springbootlearning.aspect.LogAspect - URL : http://localhost:8080/index ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : [{}]
+2019-04-03 13:46:17.879 [http-nio-8080-exec-5] INFO  cn.henry.springbootlearning.aspect.log.LogAspect - URL : http://localhost:8080/error ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : [org.apache.catalina.core.ApplicationHttpRequest@4a6ad6e0]
+2019-04-03 13:47:57.449 [http-nio-8080-exec-7] INFO  cn.henry.springbootlearning.aspect.log.LogAspect - URL : http://localhost:8080/index ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : [{}]
 2019-04-03 13:47:57.456 [http-nio-8080-exec-7] ERROR org.thymeleaf.templateparser.ErrorHandler - [THYMELEAF][http-nio-8080-exec-7] Fatal error during parsing
 org.xml.sax.SAXParseException: 元素类型 "meta" 必须由匹配的结束标记 "</meta>" 终止。
 	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
@@ -2192,7 +2192,7 @@ org.xml.sax.SAXParseException: 元素类型 "meta" 必须由匹配的结束标�
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-03 13:47:57.459 [http-nio-8080-exec-7] INFO  cn.henry.springbootlearning.aspect.LogAspect - URL : http://localhost:8080/error ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : [org.apache.catalina.core.ApplicationHttpRequest@285f2a0e]
+2019-04-03 13:47:57.459 [http-nio-8080-exec-7] INFO  cn.henry.springbootlearning.aspect.log.LogAspect - URL : http://localhost:8080/error ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : [org.apache.catalina.core.ApplicationHttpRequest@285f2a0e]
 2019-04-03 13:48:15.685 [Thread-56] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@662706a7: startup date [Wed Apr 03 13:45:47 CST 2019]; root of context hierarchy
 2019-04-03 13:48:15.687 [Thread-56] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
 2019-04-03 13:48:15.687 [Thread-56] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
@@ -2250,8 +2250,8 @@ org.xml.sax.SAXParseException: 元素类型 "meta" 必须由匹配的结束标�
 2019-04-03 13:49:13.134 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
 2019-04-03 13:49:13.135 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
 2019-04-03 13:49:13.152 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 17 ms
-2019-04-03 13:49:13.233 [http-nio-8080-exec-1] INFO  cn.henry.springbootlearning.aspect.LogAspect - URL : http://localhost:8080/error ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : [org.apache.catalina.core.ApplicationHttpRequest@145888fe]
-2019-04-03 13:49:19.660 [http-nio-8080-exec-3] INFO  cn.henry.springbootlearning.aspect.LogAspect - URL : http://localhost:8080/aaa ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : [{}]
+2019-04-03 13:49:13.233 [http-nio-8080-exec-1] INFO  cn.henry.springbootlearning.aspect.log.LogAspect - URL : http://localhost:8080/error ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : [org.apache.catalina.core.ApplicationHttpRequest@145888fe]
+2019-04-03 13:49:19.660 [http-nio-8080-exec-3] INFO  cn.henry.springbootlearning.aspect.log.LogAspect - URL : http://localhost:8080/aaa ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : [{}]
 2019-04-03 13:52:45.531 [Thread-55] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@662706a7: startup date [Wed Apr 03 13:48:55 CST 2019]; root of context hierarchy
 2019-04-03 13:52:45.533 [Thread-55] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
 2019-04-03 13:52:45.534 [Thread-55] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
@@ -2309,8 +2309,8 @@ org.xml.sax.SAXParseException: 元素类型 "meta" 必须由匹配的结束标�
 2019-04-03 13:53:36.374 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
 2019-04-03 13:53:36.374 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
 2019-04-03 13:53:36.394 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 20 ms
-2019-04-03 13:53:36.467 [http-nio-8080-exec-1] INFO  cn.henry.springbootlearning.aspect.LogAspect - URL : http://localhost:8080/aaa ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : null
-2019-04-03 13:53:44.859 [http-nio-8080-exec-3] INFO  cn.henry.springbootlearning.aspect.LogAspect - URL : http://localhost:8080/testlog ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : param=qwe
+2019-04-03 13:53:36.467 [http-nio-8080-exec-1] INFO  cn.henry.springbootlearning.aspect.log.LogAspect - URL : http://localhost:8080/aaa ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : null
+2019-04-03 13:53:44.859 [http-nio-8080-exec-3] INFO  cn.henry.springbootlearning.aspect.log.LogAspect - URL : http://localhost:8080/testlog ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : param=qwe
 2019-04-03 14:09:26.391 [Thread-55] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3eb81efb: startup date [Wed Apr 03 13:53:22 CST 2019]; root of context hierarchy
 2019-04-03 14:09:26.394 [Thread-55] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
 2019-04-03 14:09:26.394 [Thread-55] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
@@ -2371,7 +2371,7 @@ org.xml.sax.SAXParseException: 元素类型 "meta" 必须由匹配的结束标�
 2019-04-03 14:10:17.133 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
 2019-04-03 14:10:17.133 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
 2019-04-03 14:10:17.151 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 18 ms
-2019-04-03 14:10:17.226 [http-nio-8080-exec-1] INFO  cn.henry.springbootlearning.aspect.LogAspect - URL : http://localhost:8080/testlog ;HTTP_METHOD : GET ;IP : 0:0:0:0:0:0:0:1 ;ARGS : param=qwe
+2019-04-03 14:10:17.226 [http-nio-8080-exec-1] INFO  cn.henry.springbootlearning.aspect.log.LogAspect - URL : http://localhost:8080/testlog ;HTTP_METHOD : GET ;IP : 0:0:0:0:0:0:0:1 ;ARGS : param=qwe
 2019-04-03 14:27:48.315 [Thread-55] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3eb81efb: startup date [Wed Apr 03 14:10:01 CST 2019]; root of context hierarchy
 2019-04-03 14:27:48.317 [Thread-55] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
 2019-04-03 14:27:48.317 [Thread-55] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
@@ -2429,8 +2429,8 @@ org.xml.sax.SAXParseException: 元素类型 "meta" 必须由匹配的结束标�
 2019-04-03 15:03:23.507 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
 2019-04-03 15:03:23.507 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
 2019-04-03 15:03:23.524 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 17 ms
-2019-04-03 15:03:23.599 [http-nio-8080-exec-2] INFO  cn.henry.springbootlearning.aspect.LogAspect - URL : http://localhost:8080/testlog ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : param=qwe
-2019-04-03 15:03:23.602 [http-nio-8080-exec-2] INFO  cn.henry.springbootlearning.aspect.LogAspect - response : 
+2019-04-03 15:03:23.599 [http-nio-8080-exec-2] INFO  cn.henry.springbootlearning.aspect.log.LogAspect - URL : http://localhost:8080/testlog ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : param=qwe
+2019-04-03 15:03:23.602 [http-nio-8080-exec-2] INFO  cn.henry.springbootlearning.aspect.log.LogAspect - response :
 2019-04-03 15:03:58.000 [Thread-55] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3eb81efb: startup date [Wed Apr 03 15:03:07 CST 2019]; root of context hierarchy
 2019-04-03 15:03:58.002 [Thread-55] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
 2019-04-03 15:03:58.002 [Thread-55] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
@@ -2488,8 +2488,8 @@ org.xml.sax.SAXParseException: 元素类型 "meta" 必须由匹配的结束标�
 2019-04-03 15:04:52.489 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
 2019-04-03 15:04:52.489 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
 2019-04-03 15:04:52.506 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 17 ms
-2019-04-03 15:04:52.582 [http-nio-8080-exec-1] INFO  cn.henry.springbootlearning.aspect.LogAspect - URL : http://localhost:8080/testlog ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : param=qwe
-2019-04-03 15:04:52.585 [http-nio-8080-exec-1] INFO  cn.henry.springbootlearning.aspect.LogAspect - response : result = qwe
+2019-04-03 15:04:52.582 [http-nio-8080-exec-1] INFO  cn.henry.springbootlearning.aspect.log.LogAspect - URL : http://localhost:8080/testlog ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : param=qwe
+2019-04-03 15:04:52.585 [http-nio-8080-exec-1] INFO  cn.henry.springbootlearning.aspect.log.LogAspect - response : result = qwe
 2019-04-03 15:18:41.783 [Thread-55] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3eb81efb: startup date [Wed Apr 03 15:04:32 CST 2019]; root of context hierarchy
 2019-04-03 15:18:41.785 [Thread-55] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
 2019-04-03 15:18:41.785 [Thread-55] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
@@ -2557,10 +2557,10 @@ Using default security password: c24c2f86-f6cd-4806-8c8d-81f634b85fee
 2019-04-03 16:49:07.687 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
 2019-04-03 16:49:07.688 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
 2019-04-03 16:49:07.711 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 23 ms
-2019-04-03 16:49:07.814 [http-nio-8080-exec-2] INFO  cn.henry.springbootlearning.aspect.LogAspect - URL : http://localhost:8080/error ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : param=qwe
-2019-04-03 16:49:07.837 [http-nio-8080-exec-2] INFO  cn.henry.springbootlearning.aspect.LogAspect - response : <401 Unauthorized,{timestamp=Wed Apr 03 16:49:07 CST 2019, status=401, error=Unauthorized, message=Full authentication is required to access this resource, path=/testlog},{}>
-2019-04-03 16:49:50.768 [http-nio-8080-exec-3] INFO  cn.henry.springbootlearning.aspect.LogAspect - URL : http://localhost:8080/error ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : null
-2019-04-03 16:49:50.768 [http-nio-8080-exec-3] INFO  cn.henry.springbootlearning.aspect.LogAspect - response : <401 Unauthorized,{timestamp=Wed Apr 03 16:49:50 CST 2019, status=401, error=Unauthorized, message=Full authentication is required to access this resource, path=/ping},{}>
+2019-04-03 16:49:07.814 [http-nio-8080-exec-2] INFO  cn.henry.springbootlearning.aspect.log.LogAspect - URL : http://localhost:8080/error ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : param=qwe
+2019-04-03 16:49:07.837 [http-nio-8080-exec-2] INFO  cn.henry.springbootlearning.aspect.log.LogAspect - response : <401 Unauthorized,{timestamp=Wed Apr 03 16:49:07 CST 2019, status=401, error=Unauthorized, message=Full authentication is required to access this resource, path=/testlog},{}>
+2019-04-03 16:49:50.768 [http-nio-8080-exec-3] INFO  cn.henry.springbootlearning.aspect.log.LogAspect - URL : http://localhost:8080/error ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : null
+2019-04-03 16:49:50.768 [http-nio-8080-exec-3] INFO  cn.henry.springbootlearning.aspect.log.LogAspect - response : <401 Unauthorized,{timestamp=Wed Apr 03 16:49:50 CST 2019, status=401, error=Unauthorized, message=Full authentication is required to access this resource, path=/ping},{}>
 2019-04-03 16:50:28.041 [Thread-57] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1f75a668: startup date [Wed Apr 03 16:48:49 CST 2019]; root of context hierarchy
 2019-04-03 16:50:28.045 [Thread-57] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
 2019-04-03 16:50:28.045 [Thread-57] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
@@ -2628,10 +2628,10 @@ Using default security password: 231cc5bc-627f-4f37-a940-c496ea7304ca
 2019-04-03 16:51:23.974 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
 2019-04-03 16:51:23.974 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
 2019-04-03 16:51:23.993 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 19 ms
-2019-04-03 16:51:24.081 [http-nio-8080-exec-2] INFO  cn.henry.springbootlearning.aspect.LogAspect - URL : http://localhost:8080/error ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : null
-2019-04-03 16:51:24.082 [http-nio-8080-exec-2] INFO  cn.henry.springbootlearning.aspect.LogAspect - response : <401 Unauthorized,{timestamp=Wed Apr 03 16:51:24 CST 2019, status=401, error=Unauthorized, message=Full authentication is required to access this resource, path=/ping},{}>
-2019-04-03 16:52:17.085 [http-nio-8080-exec-3] INFO  cn.henry.springbootlearning.aspect.LogAspect - URL : http://localhost:8080/error ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : param=qwe
-2019-04-03 16:52:17.086 [http-nio-8080-exec-3] INFO  cn.henry.springbootlearning.aspect.LogAspect - response : <401 Unauthorized,{timestamp=Wed Apr 03 16:52:17 CST 2019, status=401, error=Unauthorized, message=Full authentication is required to access this resource, path=/testlog},{}>
+2019-04-03 16:51:24.081 [http-nio-8080-exec-2] INFO  cn.henry.springbootlearning.aspect.log.LogAspect - URL : http://localhost:8080/error ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : null
+2019-04-03 16:51:24.082 [http-nio-8080-exec-2] INFO  cn.henry.springbootlearning.aspect.log.LogAspect - response : <401 Unauthorized,{timestamp=Wed Apr 03 16:51:24 CST 2019, status=401, error=Unauthorized, message=Full authentication is required to access this resource, path=/ping},{}>
+2019-04-03 16:52:17.085 [http-nio-8080-exec-3] INFO  cn.henry.springbootlearning.aspect.log.LogAspect - URL : http://localhost:8080/error ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : param=qwe
+2019-04-03 16:52:17.086 [http-nio-8080-exec-3] INFO  cn.henry.springbootlearning.aspect.log.LogAspect - response : <401 Unauthorized,{timestamp=Wed Apr 03 16:52:17 CST 2019, status=401, error=Unauthorized, message=Full authentication is required to access this resource, path=/testlog},{}>
 2019-04-03 16:52:56.915 [Thread-55] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1f75a668: startup date [Wed Apr 03 16:51:02 CST 2019]; root of context hierarchy
 2019-04-03 16:52:56.919 [Thread-55] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
 2019-04-03 16:52:56.920 [Thread-55] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
@@ -2699,12 +2699,12 @@ Using default security password: c2571780-c079-470f-ad7e-1c024df74f61
 2019-04-03 16:53:46.241 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
 2019-04-03 16:53:46.241 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
 2019-04-03 16:53:46.259 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 18 ms
-2019-04-03 16:53:46.343 [http-nio-8080-exec-1] INFO  cn.henry.springbootlearning.aspect.LogAspect - URL : http://localhost:8080/error ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : param=qwe
-2019-04-03 16:53:46.344 [http-nio-8080-exec-1] INFO  cn.henry.springbootlearning.aspect.LogAspect - response : <401 Unauthorized,{timestamp=Wed Apr 03 16:53:46 CST 2019, status=401, error=Unauthorized, message=Full authentication is required to access this resource, path=/testlog},{}>
-2019-04-03 16:53:49.917 [http-nio-8080-exec-3] INFO  cn.henry.springbootlearning.aspect.LogAspect - URL : http://localhost:8080/error ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : null
-2019-04-03 16:53:49.917 [http-nio-8080-exec-3] INFO  cn.henry.springbootlearning.aspect.LogAspect - response : <401 Unauthorized,{timestamp=Wed Apr 03 16:53:49 CST 2019, status=401, error=Unauthorized, message=Full authentication is required to access this resource, path=/ping},{}>
-2019-04-03 16:53:55.470 [http-nio-8080-exec-4] INFO  cn.henry.springbootlearning.aspect.LogAspect - URL : http://localhost:8080/error ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : null
-2019-04-03 16:53:55.470 [http-nio-8080-exec-4] INFO  cn.henry.springbootlearning.aspect.LogAspect - response : <401 Unauthorized,{timestamp=Wed Apr 03 16:53:55 CST 2019, status=401, error=Unauthorized, message=Full authentication is required to access this resource, path=/ping},{}>
+2019-04-03 16:53:46.343 [http-nio-8080-exec-1] INFO  cn.henry.springbootlearning.aspect.log.LogAspect - URL : http://localhost:8080/error ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : param=qwe
+2019-04-03 16:53:46.344 [http-nio-8080-exec-1] INFO  cn.henry.springbootlearning.aspect.log.LogAspect - response : <401 Unauthorized,{timestamp=Wed Apr 03 16:53:46 CST 2019, status=401, error=Unauthorized, message=Full authentication is required to access this resource, path=/testlog},{}>
+2019-04-03 16:53:49.917 [http-nio-8080-exec-3] INFO  cn.henry.springbootlearning.aspect.log.LogAspect - URL : http://localhost:8080/error ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : null
+2019-04-03 16:53:49.917 [http-nio-8080-exec-3] INFO  cn.henry.springbootlearning.aspect.log.LogAspect - response : <401 Unauthorized,{timestamp=Wed Apr 03 16:53:49 CST 2019, status=401, error=Unauthorized, message=Full authentication is required to access this resource, path=/ping},{}>
+2019-04-03 16:53:55.470 [http-nio-8080-exec-4] INFO  cn.henry.springbootlearning.aspect.log.LogAspect - URL : http://localhost:8080/error ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : null
+2019-04-03 16:53:55.470 [http-nio-8080-exec-4] INFO  cn.henry.springbootlearning.aspect.log.LogAspect - response : <401 Unauthorized,{timestamp=Wed Apr 03 16:53:55 CST 2019, status=401, error=Unauthorized, message=Full authentication is required to access this resource, path=/ping},{}>
 2019-04-03 16:55:09.845 [Thread-56] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1f75a668: startup date [Wed Apr 03 16:53:31 CST 2019]; root of context hierarchy
 2019-04-03 16:55:09.848 [Thread-56] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
 2019-04-03 16:55:09.848 [Thread-56] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
@@ -2772,10 +2772,10 @@ Using default security password: 74a38cf4-6533-42e8-b3d3-6645324879c4
 2019-04-03 16:59:29.763 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
 2019-04-03 16:59:29.763 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
 2019-04-03 16:59:29.780 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 17 ms
-2019-04-03 16:59:29.850 [http-nio-8080-exec-1] INFO  cn.henry.springbootlearning.aspect.LogAspect - URL : http://localhost:8080/ping ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : null
-2019-04-03 16:59:29.852 [http-nio-8080-exec-1] INFO  cn.henry.springbootlearning.aspect.LogAspect - response : hello
-2019-04-03 16:59:33.386 [http-nio-8080-exec-3] INFO  cn.henry.springbootlearning.aspect.LogAspect - URL : http://localhost:8080/testlog ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : param=qwe
-2019-04-03 16:59:33.389 [http-nio-8080-exec-3] INFO  cn.henry.springbootlearning.aspect.LogAspect - response : result = qwe
+2019-04-03 16:59:29.850 [http-nio-8080-exec-1] INFO  cn.henry.springbootlearning.aspect.log.LogAspect - URL : http://localhost:8080/ping ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : null
+2019-04-03 16:59:29.852 [http-nio-8080-exec-1] INFO  cn.henry.springbootlearning.aspect.log.LogAspect - response : hello
+2019-04-03 16:59:33.386 [http-nio-8080-exec-3] INFO  cn.henry.springbootlearning.aspect.log.LogAspect - URL : http://localhost:8080/testlog ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : param=qwe
+2019-04-03 16:59:33.389 [http-nio-8080-exec-3] INFO  cn.henry.springbootlearning.aspect.log.LogAspect - response : result = qwe
 2019-04-03 17:00:15.255 [Thread-56] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1f75a668: startup date [Wed Apr 03 16:59:05 CST 2019]; root of context hierarchy
 2019-04-03 17:00:15.258 [Thread-56] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
 2019-04-03 17:00:15.258 [Thread-56] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
@@ -2843,10 +2843,10 @@ Using default security password: afe365f6-e293-4ec6-b467-5546cb9488be
 2019-04-03 17:02:33.755 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
 2019-04-03 17:02:33.755 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
 2019-04-03 17:02:33.773 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 18 ms
-2019-04-03 17:02:33.849 [http-nio-8080-exec-2] INFO  cn.henry.springbootlearning.aspect.LogAspect - URL : http://localhost:8080/testlog ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : param=qwe
-2019-04-03 17:02:33.852 [http-nio-8080-exec-2] INFO  cn.henry.springbootlearning.aspect.LogAspect - response : result = qwe
-2019-04-03 17:02:42.467 [http-nio-8080-exec-3] INFO  cn.henry.springbootlearning.aspect.LogAspect - URL : http://localhost:8080/ping ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : null
-2019-04-03 17:02:42.470 [http-nio-8080-exec-3] INFO  cn.henry.springbootlearning.aspect.LogAspect - response : hello
+2019-04-03 17:02:33.849 [http-nio-8080-exec-2] INFO  cn.henry.springbootlearning.aspect.log.LogAspect - URL : http://localhost:8080/testlog ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : param=qwe
+2019-04-03 17:02:33.852 [http-nio-8080-exec-2] INFO  cn.henry.springbootlearning.aspect.log.LogAspect - response : result = qwe
+2019-04-03 17:02:42.467 [http-nio-8080-exec-3] INFO  cn.henry.springbootlearning.aspect.log.LogAspect - URL : http://localhost:8080/ping ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : null
+2019-04-03 17:02:42.470 [http-nio-8080-exec-3] INFO  cn.henry.springbootlearning.aspect.log.LogAspect - response : hello
 2019-04-03 17:05:31.673 [Thread-56] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1f75a668: startup date [Wed Apr 03 17:02:09 CST 2019]; root of context hierarchy
 2019-04-03 17:05:31.676 [Thread-56] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
 2019-04-03 17:05:31.676 [Thread-56] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
@@ -3001,8 +3001,8 @@ Using default security password: 339aeb08-f96e-41af-8242-0f36fbfe02dd
 2019-04-03 17:09:49.443 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
 2019-04-03 17:09:49.443 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
 2019-04-03 17:09:49.462 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 19 ms
-2019-04-03 17:09:49.542 [http-nio-8080-exec-2] INFO  cn.henry.springbootlearning.aspect.LogAspect - URL : http://localhost:8080/ping ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : null
-2019-04-03 17:09:49.544 [http-nio-8080-exec-2] INFO  cn.henry.springbootlearning.aspect.LogAspect - response : hello
+2019-04-03 17:09:49.542 [http-nio-8080-exec-2] INFO  cn.henry.springbootlearning.aspect.log.LogAspect - URL : http://localhost:8080/ping ;HTTP_METHOD : GET ;IP : 127.0.0.1 ;ARGS : null
+2019-04-03 17:09:49.544 [http-nio-8080-exec-2] INFO  cn.henry.springbootlearning.aspect.log.LogAspect - response : hello
 2019-04-03 17:10:41.089 [Thread-56] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1f75a668: startup date [Wed Apr 03 17:09:14 CST 2019]; root of context hierarchy
 2019-04-03 17:10:41.091 [Thread-56] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
 2019-04-03 17:10:41.092 [Thread-56] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
