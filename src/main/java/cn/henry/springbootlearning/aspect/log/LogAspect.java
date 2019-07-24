@@ -1,5 +1,6 @@
 package cn.henry.springbootlearning.aspect.log;
 
+import cn.henry.springbootlearning.utils.HttpRequestHelper;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.ProceedingJoinPoint;
@@ -58,7 +59,7 @@ public class LogAspect {
          * 入参日志
          */
         log.info("[AOP-LOG-START]\n\trequestMark: {}\n\trequestIP: {}\n\tcontentType:{}\n\trequestUrl: {}\n\t" +
-                        "requestMethod: {}\n\trequestParams: {}\n\ttargetClassAndMethod: {}#{}", uuid, request.getRemoteAddr(),
+                        "requestMethod: {}\n\trequestParams: {}\n\ttargetClassAndMethod: {}#{}", uuid, HttpRequestHelper.storeIp(request),
                 request.getHeader("Content-Type"),request.getRequestURL(), request.getMethod(), params.toString(),
                 method.getDeclaringClass().getName(), method.getName());
         /**

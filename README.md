@@ -12,6 +12,8 @@
 * 日志切面打印
 * guava限流
 * redis 分布式锁
+* java8 Collectors api
+    > groupBy、mapping、counting、averagingInt、summarizingInt、joining、maxBy、minBy用法
 
 
 
